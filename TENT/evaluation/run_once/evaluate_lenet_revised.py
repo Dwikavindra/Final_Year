@@ -2,6 +2,8 @@ import torch
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 import pandas as pd
 import os
+import sys
+sys.path.append(os.path.abspath(".."))
 import argparse
 from lennet5_models import LeNet5,LeNet5BatchNorm,LeNet5BatchNorm2,LeNet5BatchNorm3,LeNet5BatchNorm4,LeNet5BatchNorm5,LeNet5BatchNorm6,LeNet5BatchNorm7
 from batch_data_loader import CustomImageDataset
