@@ -18,7 +18,7 @@ os.environ['OPENBLAS_NUM_THREADS'] = '1'
 
 
 
-# Evaluate only dset size performance of before and after to answer does TENT overfit as seen in Figure 6.8 and Figure 6.9
+# Evaluate only dset size performance of before and after to answer does TENT overfit as seen in Figure 6.8 and Figure 6.9 by adressing MNIST
 
 torch.serialization.add_safe_globals([
     LeNet5,

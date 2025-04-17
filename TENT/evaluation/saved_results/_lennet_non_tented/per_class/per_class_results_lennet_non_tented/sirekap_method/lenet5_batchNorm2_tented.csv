@@ -1,0 +1,11 @@
+model_name,iteration,class_label,accuracy
+lenet5_batchNorm2,1,5,0.8660714285714286
+lenet5_batchNorm2,1,2,0.8414634146341463
+lenet5_batchNorm2,1,1,0.7138364779874213
+lenet5_batchNorm2,1,4,0.7333333333333333
+lenet5_batchNorm2,1,0,0.7840909090909091
+lenet5_batchNorm2,1,3,0.9606299212598425
+lenet5_batchNorm2,1,8,0.6282051282051282
+lenet5_batchNorm2,1,6,0.29347826086956524
+lenet5_batchNorm2,1,7,0.37735849056603776
+lenet5_batchNorm2,1,9,0.3614457831325301

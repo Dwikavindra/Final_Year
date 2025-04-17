@@ -1,0 +1,11 @@
+model_name,iteration,class_label,accuracy,dset_size
+lenet5_batchNorm5,1,8,0.39705882352941174,0.1
+lenet5_batchNorm5,1,5,0.8932038834951457,0.1
+lenet5_batchNorm5,1,2,0.8581081081081081,0.1
+lenet5_batchNorm5,1,7,0.6421052631578947,0.1
+lenet5_batchNorm5,1,4,0.8303571428571429,0.1
+lenet5_batchNorm5,1,3,0.9658119658119658,0.1
+lenet5_batchNorm5,1,0,0.8961038961038961,0.1
+lenet5_batchNorm5,1,1,0.7793594306049823,0.1
+lenet5_batchNorm5,1,9,0.2894736842105263,0.1
+lenet5_batchNorm5,1,6,0.3614457831325301,0.1

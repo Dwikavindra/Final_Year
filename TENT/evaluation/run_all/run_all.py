@@ -3,7 +3,7 @@ import os
 import time
 
 
-files = ["run_tent_evaluate_revised.py","run_tent_step_batch_size_revised.py"]
+files = ["run_tent_evaluate_revised.py","run_tent_step_batch_size_revised.py","run_non_tent_evaluate_revised.py","run_tent_evaluate_revised_dset_overfit.py"]
 
 
 

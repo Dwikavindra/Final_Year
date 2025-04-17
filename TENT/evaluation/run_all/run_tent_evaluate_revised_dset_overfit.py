@@ -9,7 +9,6 @@ batch_size = 20
 script_name = "../evaluate_lenet_revised_dset_size_account_for_overfit.py"
 overall_csv_path = "../saved_results/_lennet_tent/dset_size_overfit/overall_results/sirekap_method"
 per_class_csv_path = "../saved_results/_lennet_tent/dset_size_overfit/per_class_results_lennet_tent/sirekap_method"
-tented = True  
 
 env = os.environ.copy()
 env['OPENBLAS_NUM_THREADS'] = '1'
@@ -32,10 +31,6 @@ for i in range(1,10):
                 "--per_class_csv_path", per_class_csv_path,
                 "--dset_size", str(d_size)  
             ]
-
-            if tented:
-                command.append("--tented")
-
             p = subprocess.Popen(command, env=env)
             processes.append(p)
 
