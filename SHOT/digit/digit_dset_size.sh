@@ -1,9 +1,0 @@
-python uda_digit.py --dset mnistelection --cls_par 0.1 --dset_size 0.1 --output ckps_digits
-python uda_digit.py --dset mnistelection --cls_par 0.1 --dset_size 0.2 --output ckps_digits
-python uda_digit.py --dset mnistelection --cls_par 0.1 --dset_size 0.3 --output ckps_digits
-python uda_digit.py --dset mnistelection --cls_par 0.1 --dset_size 0.4 --output ckps_digits
-python uda_digit.py --dset mnistelection --cls_par 0.1 --dset_size 0.5 --output ckps_digits
-python uda_digit.py --dset mnistelection --cls_par 0.1 --dset_size 0.6 --output ckps_digits
-python uda_digit.py --dset mnistelection --cls_par 0.1 --dset_size 0.7 --output ckps_digits
-python uda_digit.py --dset mnistelection --cls_par 0.1 --dset_size 0.8 --output ckps_digits
-python uda_digit.py --dset mnistelection --cls_par 0.1 --dset_size 0.9 --output ckps_digits
