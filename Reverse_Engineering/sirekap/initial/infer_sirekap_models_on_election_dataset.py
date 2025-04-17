@@ -20,7 +20,7 @@ if __name__ == "__main__":
     transforms.ToTensor()
     ])
     args = parser.parse_args()
-    test_dataset  = CustomImageDataset('../batch_inference.csv','', transform=clean_data.image_processing_sirekap)
+    test_dataset  = CustomImageDataset('../../batch_inference.csv','', transform=clean_data.image_processing_sirekap)
     dataLoader = DataLoader(test_dataset, batch_size=64, shuffle=True)
     models = sirekap_helper.load_ensemble_models_with_name()
     for name,model in models:
