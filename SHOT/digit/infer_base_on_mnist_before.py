@@ -25,18 +25,14 @@ from PIL import Image,ImageOps
 
 device = torch.device("mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is_available() else "cpu")
 def image_processing_no_effect(image):
-    """Processes the image to match LeNetBase input: grayscale, invert, resize, normalize."""
-    
 
-
-    # Apply transformations
     transform = transforms.Compose([
-        # transforms.Resize((28, 28)),  # Resize to 28x28 for LeNetBase
-        transforms.ToTensor(),        # Convert to tensor (C, H, W)
-        transforms.Normalize((0.5,), (0.5,)),  # Normalize after ToTensor()
+        
+        transforms.ToTensor(),       
+        transforms.Normalize((0.5,), (0.5,)),  
     ])
     
-    return transform(image)  # Apply transformations
+    return transform(image)  
 def build_model():
     netF = network.LeNetBase().to(device)
     netB = network.feat_bottleneck(type="bn", feature_dim=netF.in_features, bottleneck_dim=256).to(device)
@@ -117,7 +113,7 @@ if __name__ == "__main__":
         num_workers=4, drop_last=False)
     acc, _ ,precision, recall, f1, class_accuracies=cal_acc_key_metrics(dataloader,netF,netB,netC)
     columns = ['Accuracy', 'precision',"recall","f1","iteration"]
-    write_row_to_csv(f"../saved_result/before_adaptation/inference_key_metrics/inference_mnist_performance.csv", columns, [acc,precision,recall,f1,args.iteration])
+    write_row_to_csv(f"../saved_result/before_adaptation/inference_mnist_performance.csv", columns, [acc,precision,recall,f1,args.iteration])
     columns = ['Class', 'Accuracy',"iteration"]
     
     for class_label, accuracy in class_accuracies.items():
