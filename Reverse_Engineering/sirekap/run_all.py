@@ -5,7 +5,7 @@ import time
 total_iterations = 100
 batch_size = 20
 script_names = ["confirm_sirekap_models_trained_on_election_dataset.py"]
-overall_csv_path = "../../saved_results/sirekap"
+overall_csv_path = "../saved_results/sirekap"
 processes = []
 
 
