@@ -12,6 +12,8 @@ import sys
 sys.path.append(os.path.abspath(".."))
 os.environ['OPENBLAS_NUM_THREADS'] = '1'
 
+# Generate step and batch size results in __lennet_tented/overall_results/sirekap_method seen in Figure 6.3-6.6
+
 torch.serialization.add_safe_globals([
     LeNet5,
     LeNet5BatchNorm,
@@ -134,8 +136,8 @@ def evaluate_models_tented(model_paths, dataloader, iteration, overall_csv_path,
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--iteration", type=int, required=True, help="Iteration number")
-    parser.add_argument("--overall_csv_path", type=str, required=True, help="Path to save overall CSV file")
-    parser.add_argument("--per_class_csv_path", type=str, required=True, help="Path to save per-class CSV file")
+    parser.add_argument("--overall_csv_path", type=str, required=False, default='' ,help="Path to save overall CSV file")
+    parser.add_argument("--per_class_csv_path", type=str, required=False, default='',  help="Path to save per-class CSV file")
     parser.add_argument("--batch_size", type=int, required=True, help="Path to save per-class CSV file")
     parser.add_argument("--step_size", type=int, required=True, help="Path to save per-class CSV file")
     args = parser.parse_args()
@@ -149,7 +151,11 @@ if __name__ == "__main__":
         'lenet5_batchNorm6': "../model/save_model_batchNorm6.pt",
         'lenet5_batchNorm7': "../model/save_model_batchNorm7.pt",
     }
-    
+
+    if(len(args.overall_csv_path)==0):
+        args.overall_csv_path='"../saved_results/_lennet_tented_step_batch_size/overall_results/sirekap_method"'
+    if(len(args.per_class_csv_path)==0):
+        args.per_class_csv_path='../saved_results/_lennet_tented_step_batch_size/per_class/per_class_results_tented/sirekap_method'
     dataset = CustomImageDataset('../../batch_inference.csv','', transform=clean_data.image_processing_sirekap_lenet)
     dataloader = DataLoader(dataset, batch_size=args.batch_size, shuffle=True)
     evaluate_models_tented(model_paths, dataloader, iteration=args.iteration, overall_csv_path=args.overall_csv_path, per_class_csv_path=args.per_class_csv_path,steps=args.step_size,batch_size=args.batch_size)

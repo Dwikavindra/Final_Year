@@ -8,7 +8,9 @@ from batch_data_loader import CustomImageDataset
 import clean_data
 from torch.utils.data import DataLoader
 os.environ['OPENBLAS_NUM_THREADS'] = '1'
-# Evaluate lenet just once with default step and batch size step=1 and batch_size
+# Usage:
+# Evaluate Lenet without TENT on Election Dataset seen in Table 6.1 
+# Evaluate Lenet when TENT is applied at first on on Election Dataset seen in Table 6.2
 torch.serialization.add_safe_globals([
     LeNet5,
     LeNet5BatchNorm,
