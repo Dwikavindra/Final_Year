@@ -19,7 +19,7 @@ if __name__ == "__main__":
     transforms.ToTensor()
     ])
     args = parser.parse_args()
-    test_dataset  = datasets.MNIST(root='./data', train=False, download=True, transform=transform)
+    test_dataset  = datasets.MNIST(root='../data', train=False, download=True, transform=transform)
     dataLoader = DataLoader(test_dataset, batch_size=64, shuffle=True)
     models = sirekap_helper.load_ensemble_models_with_name()
     for name,model in models:
