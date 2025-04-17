@@ -1,160 +1,157 @@
-# Official implementation for **SHOT**
+# SHOT: Source Hypothesis Transfer
 
-## [**[ICML-2020] Do We Really Need to Access the Source Data? Source Hypothesis Transfer for Unsupervised Domain Adaptation**](http://proceedings.mlr.press/v119/liang20a.html)
+This repository contains code, models, and results for domain adaptation experiments using the SHOT (Source Hypothesis Transfer) method
 
-
-
-- **2022/6/6      We correct a bug in the pseudo-labeling function (def obtain_label), many thanks to @TomSheng21.**
-- **2022/2/8      We upload the pretrained source models via Google drive in [pretrained-models.md](./pretrained-models.md).**
-
-
-
-### Attention-v2: ***we release the code of our recent black-box UDA method (DINE, https://arxiv.org/pdf/2104.01539.pdf) in the following repository (https://github.com/tim-learn/DINE).*** 
-
-#### Attention: ***The code of our stronger TPAMI extension (SHOT++, https://arxiv.org/pdf/2012.07297.pdf) has been released in a new repository (https://github.com/tim-learn/SHOT-plus).*** 
-
-
-
-### Results:
-
-#### **Note that we update the code and further consider the standard learning rate scheduler like DANN and report new results in the final camera ready version.** Please refer [results.md](./results.md) for the detailed results on various datasets.
-
-*We have updated the results for **Digits**. Now the results of SHOT-IM for **Digits** are stable and promising. (Thanks to @wengzejia1 for pointing the bugs in **uda_digit.py**).*
-
-
-### Framework:  
-
-<img src="figs/shot.jpg" width="600"/>
-
-### Prerequisites:
-- python == 3.6.8
-- pytorch ==1.1.0
-- torchvision == 0.3.0
-- numpy, scipy, sklearn, PIL, argparse, tqdm
-
-### Dataset:
-
-- Please manually download the datasets [Office](https://drive.google.com/file/d/0B4IapRTv9pJ1WGZVd1VDMmhwdlE/view), [Office-Home](https://drive.google.com/file/d/0B81rNlvomiwed0V1YUxQdC1uOTg/view), [VisDA-C](https://github.com/VisionLearningGroup/taskcv-2017-public/tree/master/classification), [Office-Caltech](http://www.vision.caltech.edu/Image_Datasets/Caltech256/256_ObjectCategories.tar) from the official websites, and modify the path of images in each '.txt' under the folder './object/data/'. [**How to generate such txt files could be found in https://github.com/tim-learn/Generate_list **]
-
-- Concerning the **Digits** dsatasets, the code will automatically download three digit datasets (i.e., MNIST, USPS, and SVHN) in './digit/data/'.
-
-
-### Training:
-1. ##### Unsupervised Closed-set Domain Adaptation (UDA) on the Digits dataset
-	- MNIST -> USPS (**m2u**)   SHOT (**cls_par = 0.1**) and SHOT-IM (**cls_par = 0.0**)
-	```python
-	 cd digit/
-	 python uda_digit.py --dset m2u --gpu_id 0 --output ckps_digits --cls_par 0.0
-	 python uda_digit.py --dset m2u --gpu_id 0 --output ckps_digits --cls_par 0.1
-	```
-	
-2. ##### Unsupervised Closed-set Domain Adaptation (UDA) on the Office/ Office-Home dataset
-	- Train model on the source domain **A** (**s = 0**)
-    ```python
-    cd object/
-    python image_source.py --trte val --da uda --output ckps/source/ --gpu_id 0 --dset office --max_epoch 100 --s 0
-    ```
-	
-	- Adaptation to other target domains **D and W**, respectively
-    ```python
-    python image_target.py --cls_par 0.3 --da uda --output_src ckps/source/ --output ckps/target/ --gpu_id 0 --dset office --s 0  
-    ```
-   
-3. ##### Unsupervised Closed-set Domain Adaptation (UDA) on the VisDA-C dataset
-	- Synthetic-to-real 
-    ```python
-    cd object/
-	 python image_source.py --trte val --output ckps/source/ --da uda --gpu_id 0 --dset VISDA-C --net resnet101 --lr 1e-3 --max_epoch 10 --s 0
-	 python image_target.py --cls_par 0.3 --da uda --dset VISDA-C --gpu_id 0 --s 0 --output_src ckps/source/ --output ckps/target/ --net resnet101 --lr 1e-3
-	 ```
-	
-4. ##### Unsupervised Partial-set Domain Adaptation (PDA) on the Office-Home dataset
-	- Train model on the source domain **A** (**s = 0**)
-	```python
-	 cd object/
-	 python image_source.py --trte val --da pda --output ckps/source/ --gpu_id 0 --dset office-home --max_epoch 50 --s 0
-	```
-
-	- Adaptation to other target domains **C and P and R**, respectively
-	```python
-	 python image_target.py --cls_par 0.3 --threshold 10 --da pda --dset office-home --gpu_id 0 --s 0 --output_src ckps/source/ --output ckps/target/
-	```
-   
-5. ##### Unsupervised Open-set Domain Adaptation (ODA) on the Office-Home dataset
-	- Train model on the source domain **A** (**s = 0**)
-	```python
-	 cd object/
-	 python image_source.py --trte val --da oda --output ckps/source/ --gpu_id 0 --dset office-home --max_epoch 50 --s 0
-	```
-	
-	- Adaptation to other target domains **C and P and R**, respectively
-	```python
-	 python image_target_oda.py --cls_par 0.3 --da oda --dset office-home --gpu_id 0 --s 0 --output_src ckps/source/ --output ckps/target/
-	```
-	
-6. ##### Unsupervised Multi-source Domain Adaptation (MSDA) on the Office-Caltech dataset
-	- Train model on the source domains **A** (**s = 0**), **C** (**s = 1**), **D** (**s = 2**), respectively
-	```python
-	 cd object/
-	 python image_source.py --trte val --da uda --output ckps/source/ --gpu_id 0 --dset office-caltech --max_epoch 100 --s 0
-	 python image_source.py --trte val --da uda --output ckps/source/ --gpu_id 0 --dset office-caltech --max_epoch 100 --s 1
-	 python image_source.py --trte val --da uda --output ckps/source/ --gpu_id 0 --dset office-caltech --max_epoch 100 --s 2
-	```
-	
-	- Adaptation to the target domain **W** (**t = 3**)
-	```python
-	 python image_target.py --cls_par 0.3 --da uda --output_src ckps/source/ --output ckps/target/ --gpu_id 0 --dset office --s 0
-	 python image_target.py --cls_par 0.3 --da uda --output_src ckps/source/ --output ckps/target/ --gpu_id 0 --dset office --s 1
-	 python image_target.py --cls_par 0.3 --da uda --output_src ckps/source/ --output ckps/target/ --gpu_id 0 --dset office --s 2
-	 python image_multisource.py --cls_par 0.0 --da uda --dset office-caltech --gpu_id 0 --t 3 --output_src ckps/source/ --output ckps/target/
-	```
-	
-7. ##### Unsupervised Multi-target Domain Adaptation (MTDA) on the Office-Caltech dataset
-	- Train model on the source domain **A** (**s = 0**)
-	```python
-	 cd object/
-	 python image_source.py --trte val --da uda --output ckps/source/ --gpu_id 0 --dset office-caltech --max_epoch 100 --s 0
-	```
-	
-	- Adaptation to multiple target domains **C and P and R** at the same time
-	```python
-	 python image_multitarget.py --cls_par 0.3 --da uda --dset office-caltech --gpu_id 0 --s 0 --output_src ckps/source/ --output ckps/target/
-	```
-	
-8. ##### Unsupervised Partial Domain Adaptation (PDA) on the ImageNet-Caltech dataset without source training by ourselves (using the downloaded Pytorch ResNet50 model directly)
-	- ImageNet -> Caltech (84 classes) [following the protocol in [PADA](https://github.com/thuml/PADA/tree/master/pytorch/data/imagenet-caltech)]
-	```python
-	 cd object/
-	 python image_pretrained.py --gpu_id 0 --output ckps/target/ --cls_par 0.3
-	```
-
-**Please refer *./object/run.sh*** for all the settings for different methods and scenarios.
-
-### Citation
-
-If you find this code useful for your research, please cite our papers
+## Repository Structure
 
 ```
-@inproceedings{liang2020we, 
- title={Do We Really Need to Access the Source Data? Source Hypothesis Transfer for Unsupervised Domain Adaptation}, 
- author={Liang, Jian and Hu, Dapeng and Feng, Jiashi}, 
- booktitle={International Conference on Machine Learning (ICML)},  
- pages={6028--6039},
- year={2020}
-}
-
-@article{liang2021source,  
- title={Source Data-absent Unsupervised Domain Adaptation through Hypothesis Transfer and Labeling Transfer}, 
- author={Liang, Jian and Hu, Dapeng and Wang, Yunbo and He, Ran and Feng, Jiashi},   
- journal={IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
- year={2021}, 
- note={In Press}  
-}
+└── SHOT/
+    ├── readme.md                # Main README file
+    ├── LICENSE                  # License information
+    ├── pretrained-models.md     # Information about pretrained models
+    ├── results.md               # Results overview
+    ├── digit/                   # Digit classification experiments
+    │   ├── digit.sh             # Shell script for running digit experiments
+    │   ├── infer_base_*.py      # Inference scripts for baselines
+    │   ├── loss.py              # Loss function implementations
+    │   ├── network.py           # Neural network architecture definitions
+    │   ├── run_*.py             # Scripts for running multiple iterations
+    │   ├── uda_digit.py         # Core SHOT implementation for digit classification
+    │   ├── ckps_digits/         # Checkpoints for digit experiments
+    │   │   └── seed2020/
+    │   │       ├── m2u/         # MNIST to USPS adaptation
+    │   │       ├── mnistelection/ # MNIST to Election dataset adaptation
+    │   │       └── s2m/         # SVHN to MNIST adaptation
+    │   ├── data/                # Dataset storage
+    │   └── data_load/           # Data loading utilities
+    ├── object/                  # Object classification experiments
+    └── saved_result/            # Saved experimental results
+        ├── adaptation/          # Results after SHOT adaptation
+        └── before_adaptation/   # Baseline results before adaptation
 ```
 
+## Experimental Results
 
-### Contact
+The results are organized into two main categories: pre-adaptation baselines and post-adaptation results.
 
-- [liangjian92@gmail.com](mailto:liangjian92@gmail.com)
-- [dapeng.hu@u.nus.edu](mailto:dapeng.hu@u.nus.edu)
-- [elefjia@nus.edu.sg](mailto:elefjia@nus.edu.sg)
+### Post-Adaptation Results (`saved_result/adaptation/`)
+
+| File                                      | Description                                                                              | Related Table/Figure |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------- | -------------------- |
+| `SHOT_evaluation_metrics.csv`             | Performance metrics after SHOT adaptation for dataset sizes 0.1-0.9 running 100 times    | Table 5.16           |
+| `SHOT_per_class_accuracy.csv`             | Per-class accuracy after complete adaptation for dataset sizes 0.1-0.9 running 100 times | Tables 6.11, 6.13    |
+| `SHOT_mnist_after_per_class_accuracy.csv` | Per-class accuracy for MNIST after complete adaptation running 100 times                 | -                    |
+| `SHOT_mnist_after_performance.csv`        | Complete performance metrics for MNIST after adaptation running 100 times                | Table 6.5            |
+
+### Pre-Adaptation Baselines (`saved_result/before_adaptation/`)
+
+| File                                  | Description                                              | Related Table/Figure |
+| ------------------------------------- | -------------------------------------------------------- | -------------------- |
+| `election_before_per_class.csv`       | Per-class accuracy on Election dataset before adaptation | -                    |
+| `inference_base_election.csv`         | Baseline inference results on Election dataset           | Table 6.4            |
+| `inference_mnist_performance.csv`     | Baseline performance metrics on MNIST                    | Table 6.4            |
+| `mnist_before_per_class_accuracy.csv` | Per-class accuracy on MNIST before adaptation            | -                    |
+
+## Source Code Components
+
+The following tables outline the key components of the SHOT implementation:
+
+### Digit Classification Module (`digit/`)
+
+| File                                    | Description                                                                                                                                             |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `uda_digit.py`                          | Core implementation of SHOT for digit classification - main adaptation file, this also run inference after adaptation on MNIST to check for overfitting |
+| `run_uda_digit.py`                      | Script to run `uda_digit.py` 100 run times                                                                                                              |
+| `infer_base_election_dataset_before.py` | Runs inference on election dataset before adaptation                                                                                                    |
+| `infer_base_on_mnist_before.py`         | Runs inference on MNIST dataset before adaptation                                                                                                       |
+| `run_all_infer_base.py`                 | Runs all inference scripts 100 times for statistical significance                                                                                       |
+| `digit.sh`                              | Script for running digit experiments                                                                                                                    |
+| `loss.py`                               | Loss function implementations                                                                                                                           |
+| `network.py`                            | Neural network architecture definitions                                                                                                                 |
+
+### Data Loading Utilities (`digit/data_load/`)
+
+| File          | Description                 |
+| ------------- | --------------------------- |
+| `election.py` | Election dataset processing |
+| `mnist.py`    | MNIST dataset processing    |
+
+## Dataset Size Experiments
+
+The experiments investigate the impact of dataset size on adaptation performance:
+
+| Dataset Size | Description                  | Results                       |
+| ------------ | ---------------------------- | ----------------------------- |
+| 0.1 (10%)    | Uses 10% of the full dataset | Tables 5.16, 6.10, 6.11, 6.13 |
+| 0.2 (20%)    | Uses 20% of the full dataset | Tables 5.16, 6.10, 6.11, 6.13 |
+| 0.3 (30%)    | Uses 30% of the full dataset | Tables 5.16, 6.10, 6.11, 6.13 |
+| 0.4 (40%)    | Uses 40% of the full dataset | Tables 5.16, 6.10, 6.11, 6.13 |
+| 0.5 (50%)    | Uses 50% of the full dataset | Tables 5.16, 6.10, 6.11, 6.13 |
+| 0.6 (60%)    | Uses 60% of the full dataset | Tables 5.16, 6.10, 6.11, 6.13 |
+| 0.7 (70%)    | Uses 70% of the full dataset | Tables 5.16, 6.10, 6.11, 6.13 |
+| 0.8 (80%)    | Uses 80% of the full dataset | Tables 5.16, 6.10, 6.11, 6.13 |
+| 0.9 (90%)    | Uses 90% of the full dataset | Tables 5.16, 6.10, 6.11, 6.13 |
+
+Each experiment is conducted with:
+
+- Evaluation when adaptation is complete (`iter_num=max_iter`)
+
+## Running Experiments
+
+### Running Pre-Adaptation Baselines
+
+| Task                                               | Command                                                                        | Description                                        |
+| -------------------------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------- |
+| Single inference on MNIST                          | `cd digit`<br>`python infer_base_on_mnist_before.py --iteration [num]`         | Runs baseline inference on MNIST before Adaptation |
+| Single inference on Election                       | `cd digit`<br>`python infer_base_election_dataset_before.py --iteration [num]` | Runs baseline inference on Election dataset        |
+| Multiple inference runs before of SHOT adapatation | `cd digit`<br>`python run_all_infer_base.py`                                   | Runs all inference for 100 times                   |
+
+**NOTE:** You must change directory (`cd`) to the respective folder before running each script as shown in the commands above. The scripts have relative path dependencies that require being run from their specific directories.
+
+**NOTE:** Running `run_all_infer_base.py` will execute each experimental condition 100 times. This requires significant computational resources and may take a very long time to complete.
+
+### Running SHOT Adaptation
+
+| Task                     | Command                                                                                                        | Description                                                                   |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| Single SHOT adaptation   | `cd digit`<br>`python uda_digit.py --dset mnistelection --cls_par 0.1 --dset_size [size] --output ckps_digits` | Runs SHOT adaptation with specified dataset size                              |
+| Multiple adaptation runs | `cd digit`<br>`python run_uda_digit.py`                                                                        | Runs SHOT adaptation for all dataset sizes (0.1-0.9) with 100 iterations each |
+| All digit experiments    | `cd digit`<br>`./digit.sh`                                                                                     | Runs all digit experiments (shell script)                                     |
+
+**NOTE:** To replicate the experiments in the paper, use `cls_par` value of 0.1, `dset_size` values from 0.1 to 0.9, and iterations 0-100.
+
+**NOTE:** Running `run_uda_digit.py` is computationally expensive as it runs the adaptation algorithm multiple times for statistical significance. Be prepared for long execution times and high resource utilization.
+
+### Command-Line Arguments
+
+| Script            | Argument      | Description                           | Default Value |
+| ----------------- | ------------- | ------------------------------------- | ------------- |
+| `uda_digit.py`    | `--dset`      | Target dataset (e.g., mnistelection)  | -             |
+|                   | `--cls_par`   | Classification parameter              | 0.1           |
+|                   | `--dset_size` | Dataset size (0.1-0.9)                | 0.9           |
+|                   | `--output`    | Output directory for checkpoints      | ckps_digits   |
+| `infer_base_*.py` | `--iteration` | Iteration number for statistical runs | 1.0           |
+
+**NOTE:** Batch size is kept at 64 for all experiments.
+
+## Relationship Between Scripts and Results
+
+This table clarifies how each script relates to specific results and tables in the paper:
+
+| Script                                  | Description                    | Saves Results To                                                                                                                                                                                                                                  | Related Tables                     |
+| --------------------------------------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| `infer_base_on_mnist_before.py`         | Baseline inference on MNIST    | `saved_result/before_adaptation/inference_mnist_performance.csv`<br>`saved_result/before_adaptation/mnist_before_per_class_accuracy.csv`                                                                                                          | Table 6.4                          |
+| `infer_base_election_dataset_before.py` | Baseline inference on Election | `saved_result/before_adaptation/inference_base_election.csv`<br>`saved_result/before_adaptation/election_before_per_class.csv`                                                                                                                    | Table 6.4                          |
+| `uda_digit.py`                          | SHOT adaptation                | `saved_result/adaptation/SHOT_evaluation_metrics.csv`<br>`saved_result/adaptation/SHOT_per_class_accuracy.csv`<br>`saved_result/adaptation/SHOT_mnist_after_per_class_accuracy.csv`<br>`saved_result/adaptation/SHOT_mnist_after_performance.csv` | Tables 5.16, 6.5, 6.10, 6.11, 6.13 |
+
+## References
+
+The experimental results in this repository correspond to specific tables in the research documentation:
+
+| Reference         | Description                                                              |
+| ----------------- | ------------------------------------------------------------------------ |
+| Table 5.16        | Overall performance metrics for different dataset sizes after adaptation |
+| Table 6.4         | Baseline performance metrics before adaptation                           |
+| Table 6.5         | Complete performance metrics for MNIST after adaptation                  |
+| Table 6.10        | Dataset size impact on adaptation performance                            |
+| Tables 6.11, 6.13 | Per-class accuracy for different dataset sizes after adaptation          |

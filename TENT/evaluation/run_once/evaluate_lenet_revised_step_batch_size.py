@@ -13,7 +13,7 @@ from torch.utils.data import DataLoader
 import tent
 os.environ['OPENBLAS_NUM_THREADS'] = '1'
 
-# Generate step and batch size results in __lennet_tented/overall_results/sirekap_method seen in Figure 6.3-6.6
+# Generate step and batch size results in _lennet_tented_step_batch_size folder used Figure 6.3-6.6
 
 torch.serialization.add_safe_globals([
     LeNet5,
