@@ -25,17 +25,13 @@ from PIL import Image,ImageOps
 
 device = torch.device("mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is_available() else "cpu")
 def image_processing_no_effect(image):
-    """Processes the image to match LeNetBase input: grayscale, invert, resize, normalize."""
     
-
-
-    # Apply transformations
     transform = transforms.Compose([
-        transforms.ToTensor(),        # Convert to tensor (C, H, W)
-        transforms.Normalize((0.5,), (0.5,)),  # Normalize after ToTensor()
+        transforms.ToTensor(),       
+        transforms.Normalize((0.5,), (0.5,))
     ])
     
-    return transform(image)  # Apply transformations
+    return transform(image)  
 def build_model():
     netF = network.LeNetBase().to(device)
     netB = network.feat_bottleneck(type="bn", feature_dim=netF.in_features, bottleneck_dim=256).to(device)
@@ -49,7 +45,6 @@ def build_model():
     netF.eval()
     netB.eval()
     netC.eval()
-    #   outputs = netC(netB(netF(inputs)))
     return netC,netB,netF
 
 

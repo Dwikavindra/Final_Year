@@ -107,7 +107,6 @@ if __name__ == "__main__":
     test_target = mnist.MNIST('./data/mnist/', train=False, download=True,
                 transform=transforms.Compose([
                     transforms.ToTensor(),
-                    transforms.Normalize((0.5,), (0.5,))
                 ]))
     dataloader= DataLoader(test_target, batch_size=64*2, shuffle=False, 
         num_workers=4, drop_last=False)

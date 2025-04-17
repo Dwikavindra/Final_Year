@@ -34,19 +34,12 @@ def write_row_to_csv(file_path, columns, values):
 mp.set_start_method('spawn', force=True)
 device = torch.device("mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is_available() else "cpu")
 
-def image_processing_no_effect(image):
-    """Processes the image to match LeNetBase input: grayscale, invert, resize, normalize."""
-    
-
-
-    # Apply transformations
+def image_processing_no_effect(image):    
     transform = transforms.Compose([
-        # transforms.Resize((28, 28)),  # Resize to 28x28 for LeNetBase
-        transforms.ToTensor(),        # Convert to tensor (C, H, W)
-        transforms.Normalize((0.5,), (0.5,)),  # Normalize after ToTensor()
+        transforms.ToTensor(),        
     ])
     
-    return transform(image)  # Apply transformations
+    return transform(image)  
 
 
 def op_copy(optimizer):
@@ -152,9 +145,9 @@ def digit_load(args):
                 ]))
 
         train_target = election.ElectionDatasetSirekapMethod('../data/batch_inference.csv', train=True,dset_size=args.dset_size,
-                transform=None)
+                transform=image_processing_no_effect)
         test_target = election.ElectionDatasetSirekapMethod('../data/batch_inference.csv', train=False,dset_size=args.dset_size, 
-                transform=None) 
+                transform=image_processing_no_effect) 
 
     dset_loaders = {}
     dset_loaders["source_tr"] = DataLoader(train_source, batch_size=train_bs, shuffle=True, 
@@ -462,15 +455,15 @@ def train_target(args):
     
             for class_label, accuracy in class_accuracies.items():
                 write_row_to_csv(f".../saved_result/adaptation/per_class_acc/SHOT_per_class_accuracy.csv", columns, [class_label, accuracy,iter_num,max_iter,args.dset_size,args.iteration])
-        
-            print(log_str+'\n')
+            
+            print("Passed here all good working"+'\n')
             netF.train()
             netB.train()
 
-    if args.issave:
-        torch.save(netF.state_dict(), osp.join(args.output_dir, "target_F_" + args.savename + ".pt"))
-        torch.save(netB.state_dict(), osp.join(args.output_dir, "target_B_" + args.savename + ".pt"))
-        torch.save(netC.state_dict(), osp.join(args.output_dir, "target_C_" + args.savename + ".pt"))
+    # if args.issave:
+        # torch.save(netF.state_dict(), osp.join(args.output_dir, "target_F_" + args.savename + ".pt"))
+        # torch.save(netB.state_dict(), osp.join(args.output_dir, "target_B_" + args.savename + ".pt"))
+        # torch.save(netC.state_dict(), osp.join(args.output_dir, "target_C_" + args.savename + ".pt"))
 
     return netF, netB, netC
 def saveResultObtainLabel(accuracy_before,accuracy_after, iteration, dset_size,interval_iter_tracker,fileName, filePath):
@@ -607,20 +600,20 @@ if __name__ == "__main__":
     args.out_file.write(print_args(args) + '\n')
     args.out_file.flush()
 
-    # train_target(args)
-    target_mnist = mnist.MNIST('./data/mnist/', train=False, download=True,
-                transform=transforms.Compose([
-                    transforms.ToTensor(),
-                    transforms.Normalize((0.5,), (0.5,))
-                ]))
-    dataloader= DataLoader(target_mnist, batch_size=64*2, shuffle=False, 
-        num_workers=4, drop_last=False)
-    netC,netB,netF=build_model(args.dset_size)
-    acc, _ ,precision, recall, f1, class_accuracies=cal_acc_key_metrics(dataloader,netF,netB,netC)
-    columns = ['Accuracy', 'precision',"recall","f1","iteration","dset_size"]
-    write_row_to_csv(f"../saved_result/adaptation/SHOT_mnist_after_performance.csv", columns, [acc,precision,recall,f1,args.iteration,args.dset_size])
-    columns = ['Class', 'Accuracy',"iteration","dset_size"]
-    for class_label, accuracy in class_accuracies.items():
-        write_row_to_csv(f"../saved_result/adaptation/SHOT_mnist_after_per_class_accuracy.csv", columns, [class_label, accuracy,args.iteration,args.dset_size])
+    train_target(args)
+    # target_mnist = mnist.MNIST('./data/mnist/', train=False, download=True,
+    #             transform=transforms.Compose([
+    #                 transforms.ToTensor(),
+    #                 transforms.Normalize((0.5,), (0.5,))
+    #             ]))
+    # dataloader= DataLoader(target_mnist, batch_size=64*2, shuffle=False, 
+    #     num_workers=4, drop_last=False)
+    # netC,netB,netF=build_model(args.dset_size)
+    # acc, _ ,precision, recall, f1, class_accuracies=cal_acc_key_metrics(dataloader,netF,netB,netC)
+    # columns = ['Accuracy', 'precision',"recall","f1","iteration","dset_size"]
+    # write_row_to_csv(f"../saved_result/adaptation/SHOT_mnist_after_performance.csv", columns, [acc,precision,recall,f1,args.iteration,args.dset_size])
+    # columns = ['Class', 'Accuracy',"iteration","dset_size"]
+    # for class_label, accuracy in class_accuracies.items():
+    #     write_row_to_csv(f"../saved_result/adaptation/SHOT_mnist_after_per_class_accuracy.csv", columns, [class_label, accuracy,args.iteration,args.dset_size])
 
   
