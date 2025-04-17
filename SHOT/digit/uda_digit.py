@@ -597,8 +597,8 @@ if __name__ == "__main__":
         args.out_file = open(osp.join(args.output_dir, 'log_src.txt'), 'w')
         args.out_file.write(print_args(args) + '\n')
         args.out_file.flush()
-        train_source(args)
-        test_target(args)
+        # train_source(args)
+        # test_target(args)
     
     args.savename = 'par_' + str(args.cls_par)
     if args.dset_size != None:
@@ -607,7 +607,7 @@ if __name__ == "__main__":
     args.out_file.write(print_args(args) + '\n')
     args.out_file.flush()
 
-    train_target(args)
+    # train_target(args)
     target_mnist = mnist.MNIST('./data/mnist/', train=False, download=True,
                 transform=transforms.Compose([
                     transforms.ToTensor(),
@@ -621,6 +621,6 @@ if __name__ == "__main__":
     write_row_to_csv(f"../saved_result/adaptation/SHOT_mnist_after_performance.csv", columns, [acc,precision,recall,f1,args.iteration,args.dset_size])
     columns = ['Class', 'Accuracy',"iteration","dset_size"]
     for class_label, accuracy in class_accuracies.items():
-        write_row_to_csv(f"../saved_result/adaptation/SHOT_mnist_after_per_classs_accuracy.csv", columns, [class_label, accuracy,args.iteration,args.dset_size])
+        write_row_to_csv(f"../saved_result/adaptation/SHOT_mnist_after_per_class_accuracy.csv", columns, [class_label, accuracy,args.iteration,args.dset_size])
 
   
