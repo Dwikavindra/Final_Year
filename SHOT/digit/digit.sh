@@ -1,0 +1,1 @@
+~/anaconda3/envs/pytorch/bin/python uda_digit.py --dset mnistelection --gpu_id 0 --cls_par 0.1 --output ckps_digits

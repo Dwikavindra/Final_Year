@@ -1,0 +1,83 @@
+==========================================
+max_epoch:30
+batch_size:64
+worker:4
+dset_size:0.6
+dset:mnistelection
+lr:0.01
+seed:2020
+cls_par:0.1
+ent_par:1.0
+gent:True
+ent:True
+bottleneck:256
+layer:wn
+classifier:bn
+smooth:0.1
+output:ckps_digits
+issave:True
+class_num:10
+output_dir:ckps_digits/seed2020/mnistelection
+savename:par_0.1dset_size0.6
+out_file:<_io.TextIOWrapper name='ckps_digits/seed2020/mnistelection/log_tar_par_0.1dset_size0.6.txt' mode='w' encoding='UTF-8'>
+
+Accuracy = 26.55% -> 41.45%
+Task: mnistelection, Iter:13/390; Accuracy = 52.52%
+Accuracy = 55.57% -> 57.64%
+Task: mnistelection, Iter:26/390; Accuracy = 68.60%
+Accuracy = 71.63% -> 70.60%
+Task: mnistelection, Iter:39/390; Accuracy = 74.42%
+Accuracy = 76.68% -> 76.68%
+Task: mnistelection, Iter:52/390; Accuracy = 77.13%
+Accuracy = 79.02% -> 80.70%
+Task: mnistelection, Iter:65/390; Accuracy = 73.84%
+Accuracy = 74.87% -> 78.24%
+Task: mnistelection, Iter:78/390; Accuracy = 78.88%
+Accuracy = 82.77% -> 86.14%
+Task: mnistelection, Iter:91/390; Accuracy = 81.20%
+Accuracy = 83.68% -> 87.44%
+Task: mnistelection, Iter:104/390; Accuracy = 81.01%
+Accuracy = 83.81% -> 88.08%
+Task: mnistelection, Iter:117/390; Accuracy = 82.95%
+Accuracy = 84.84% -> 88.73%
+Task: mnistelection, Iter:130/390; Accuracy = 81.78%
+Accuracy = 84.20% -> 87.69%
+Task: mnistelection, Iter:143/390; Accuracy = 81.98%
+Accuracy = 86.01% -> 88.34%
+Task: mnistelection, Iter:156/390; Accuracy = 84.30%
+Accuracy = 87.69% -> 89.38%
+Task: mnistelection, Iter:169/390; Accuracy = 83.33%
+Accuracy = 87.05% -> 88.86%
+Task: mnistelection, Iter:182/390; Accuracy = 84.30%
+Accuracy = 86.92% -> 88.86%
+Task: mnistelection, Iter:195/390; Accuracy = 85.66%
+Accuracy = 88.08% -> 89.77%
+Task: mnistelection, Iter:208/390; Accuracy = 84.50%
+Accuracy = 87.69% -> 89.25%
+Task: mnistelection, Iter:221/390; Accuracy = 83.14%
+Accuracy = 88.21% -> 89.90%
+Task: mnistelection, Iter:234/390; Accuracy = 84.69%
+Accuracy = 87.05% -> 88.47%
+Task: mnistelection, Iter:247/390; Accuracy = 84.69%
+Accuracy = 87.44% -> 88.86%
+Task: mnistelection, Iter:260/390; Accuracy = 86.82%
+Accuracy = 88.47% -> 89.90%
+Task: mnistelection, Iter:273/390; Accuracy = 87.40%
+Accuracy = 88.47% -> 89.38%
+Task: mnistelection, Iter:286/390; Accuracy = 87.21%
+Accuracy = 88.86% -> 89.64%
+Task: mnistelection, Iter:299/390; Accuracy = 87.60%
+Accuracy = 88.34% -> 89.25%
+Task: mnistelection, Iter:312/390; Accuracy = 87.02%
+Accuracy = 88.60% -> 89.51%
+Task: mnistelection, Iter:325/390; Accuracy = 86.63%
+Accuracy = 89.12% -> 89.51%
+Task: mnistelection, Iter:338/390; Accuracy = 87.60%
+Accuracy = 89.38% -> 89.77%
+Task: mnistelection, Iter:351/390; Accuracy = 87.98%
+Accuracy = 88.99% -> 89.51%
+Task: mnistelection, Iter:364/390; Accuracy = 87.02%
+Accuracy = 88.60% -> 89.38%
+Task: mnistelection, Iter:377/390; Accuracy = 86.63%
+Accuracy = 89.25% -> 89.77%
+Task: mnistelection, Iter:390/390; Accuracy = 87.79%
