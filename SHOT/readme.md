@@ -52,17 +52,17 @@ The following tables outline the key components of the SHOT implementation:
 
 The experiments investigate the impact of dataset size on adaptation performance:
 
-| Dataset Size | Description                  | Results                       |
-| ------------ | ---------------------------- | ----------------------------- |
-| 0.1 (10%)    | Uses 10% of the full dataset | Tables 5.16, 6.10, 6.11, 6.13 |
-| 0.2 (20%)    | Uses 20% of the full dataset | Tables 5.16, 6.10, 6.11, 6.13 |
-| 0.3 (30%)    | Uses 30% of the full dataset | Tables 5.16, 6.10, 6.11, 6.13 |
-| 0.4 (40%)    | Uses 40% of the full dataset | Tables 5.16, 6.10, 6.11, 6.13 |
-| 0.5 (50%)    | Uses 50% of the full dataset | Tables 5.16, 6.10, 6.11, 6.13 |
-| 0.6 (60%)    | Uses 60% of the full dataset | Tables 5.16, 6.10, 6.11, 6.13 |
-| 0.7 (70%)    | Uses 70% of the full dataset | Tables 5.16, 6.10, 6.11, 6.13 |
-| 0.8 (80%)    | Uses 80% of the full dataset | Tables 5.16, 6.10, 6.11, 6.13 |
-| 0.9 (90%)    | Uses 90% of the full dataset | Tables 5.16, 6.10, 6.11, 6.13 |
+| Dataset Size | Results                       |
+| ------------ | ----------------------------- |
+| 0.1          | Tables 5.16, 6.10, 6.11, 6.13 |
+| 0.2          | Tables 5.16, 6.10, 6.11, 6.13 |
+| 0.3          | Tables 5.16, 6.10, 6.11, 6.13 |
+| 0.4          | Tables 5.16, 6.10, 6.11, 6.13 |
+| 0.5          | Tables 5.16, 6.10, 6.11, 6.13 |
+| 0.6          | Tables 5.16, 6.10, 6.11, 6.13 |
+| 0.7          | Tables 5.16, 6.10, 6.11, 6.13 |
+| 0.8          | Tables 5.16, 6.10, 6.11, 6.13 |
+| 0.9          | Tables 5.16, 6.10, 6.11, 6.13 |
 
 Each experiment is conducted with:
 

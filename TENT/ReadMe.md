@@ -2,42 +2,6 @@
 
 This repository contains code, models, and results for experiments with Test-Time Entropy Minimization (TENT) adaptation techniques applied to LeNet5 models with various batch normalization configurations.
 
-## Repository Structure
-
-```
-└── TENT/
-    ├── batch_inference.csv                 # Batch inference data
-    ├── evaluation/                         # Source code for experiments
-    │   ├── batch_data_loader.py            # Handles batch loading of data
-    │   ├── batch_infer.py                  # Batch inference implementation
-    │   ├── clean_data.py                   # Data cleaning utilities
-    │   ├── evaluate_lenet_tent.py          # Main evaluation script for TENT
-    │   ├── json_processing.py              # JSON utilities for data processing
-    │   ├── lennet5_models.py               # LeNet5 model implementations
-    │   ├── run_evalute.py                  # Main driver script for evaluations
-    │   ├── sirekap_helper.py               # Helper functions for SIREKAP data
-    │   ├── tent.py                         # TENT adaptation implementation
-    │   ├── train_all_lenet_models.py       # Script to train all LeNet models
-    │   ├── run_all/                        # Scripts to run all experiments
-    │   │   ├── run_all.py                  # Main script to run all experiments
-    │   │   ├── run_non_tent_evaluate_revised.py
-    │   │   ├── run_tent_evaluate_revised.py
-    │   │   ├── run_tent_evaluate_revised_dset_overfit.py
-    │   │   └── run_tent_step_batch_size_revised.py
-    │   ├── run_once/                       # Scripts to run single experiments
-    │   │   ├── evaluate_lenet_revised.py
-    │   │   ├── evaluate_lenet_revised_dset_size_account_for_overfit.py
-    │   │   └── evaluate_lenet_revised_step_batch_size.py
-    │   └── saved_results/                  # All experimental results
-    │       ├── _lennet_non_tented/         # Results before TENT adaptation
-    │       ├── _lennet_tent/               # Results after TENT adaptation
-    │       └── _lennet_tented_step_batch_size/ # Results with varying steps/batch sizes
-    └── model/                              # Trained model files
-        ├── save_model.pt                   # Base model
-        ├── save_model_batchNorm1.pt        # Model with BatchNorm variation 1
-        └── save_model_batchNorm8.pt        # Model with BatchNorm variation 8
-```
-
 ## Experimental Results
 
 All experimental results are saved in the `evaluation/saved_results` folder, organized into three main categories. Each category contains data corresponding to specific tables and figures in the research paper.
