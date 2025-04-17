@@ -1,0 +1,59 @@
+{
+    "id": "3403022007002",
+    "province": "Daerah Istimewa Yogyakarta",
+    "regency": "Gunung Kidul",
+    "district": "Nglipar",
+    "sub_district": "Katongan",
+    "ballot_number": "02",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 6
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 8,
+            "digit3": 7
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 5
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3403022007002/candidate1/digit2/Screenshot 2024-12-17 at 00.39.26.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3403022007002/candidate1/digit3/Screenshot 2024-12-17 at 00.39.30.png"
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3403022007002/candidate2/digit2/Screenshot 2024-12-17 at 00.39.35.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3403022007002/candidate2/digit3/Screenshot 2024-12-17 at 00.39.38.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3403022007002/candidate3/digit2/Screenshot 2024-12-17 at 00.39.43.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3403022007002/candidate3/digit3/Screenshot 2024-12-17 at 00.39.47.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 6
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 9,
+            "digit3": 7
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 9,
+            "digit3": 5
+        }
+    }
+}

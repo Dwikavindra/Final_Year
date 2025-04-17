@@ -1,0 +1,59 @@
+{
+    "id": "3172041001001",
+    "province": "DKI Jakarta",
+    "regency": "Kota Administrasi Jakarta Utara",
+    "district": "Cilincing",
+    "sub_district": "Cilincing",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": 1,
+            "digit2": 1,
+            "digit3": 0
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 7,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 1
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": "/Volumes/Dwika/fyp/data_election/digits/3172041001001/candidate1/digit1/Screenshot 2025-02-18 at 22.37.42.png",
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3172041001001/candidate1/digit2/Screenshot 2024-12-16 at 23.23.06.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3172041001001/candidate1/digit3/Screenshot 2025-02-18 at 21.55.57.png"
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3172041001001/candidate2/digit2/Screenshot 2025-02-18 at 20.06.44.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3172041001001/candidate2/digit3/Screenshot 2025-02-18 at 22.04.55.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3172041001001/candidate3/digit2/Screenshot 2025-02-18 at 21.52.41.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3172041001001/candidate3/digit3/Screenshot 2025-02-18 at 22.53.24.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": 4,
+            "digit2": 4,
+            "digit3": 4
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 4
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 4
+        }
+    }
+}

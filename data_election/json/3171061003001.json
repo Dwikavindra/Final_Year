@@ -1,0 +1,59 @@
+{
+    "id": "3171061003001",
+    "province": "DKI Jakarta",
+    "regency": "Kota Administrasi Jakarta Pusat",
+    "district": "Menteng",
+    "sub_district": "Cikini",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 5,
+            "digit3": 6
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 8,
+            "digit3": 0
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 7
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3171061003001/candidate1/digit2/Screenshot 2025-02-18 at 21.31.03.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3171061003001/candidate1/digit3/Screenshot 2024-12-16 at 22.35.39.png"
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3171061003001/candidate2/digit2/Screenshot 2024-12-16 at 22.35.49.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3171061003001/candidate2/digit3/Screenshot 2024-12-16 at 22.35.53.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3171061003001/candidate3/digit2/Screenshot 2024-12-16 at 22.35.59.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3171061003001/candidate3/digit3/Screenshot 2024-12-16 at 22.36.04.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 5,
+            "digit3": 5
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 9,
+            "digit3": 0
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 7
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "id": "1871201004001",
+    "province": "Lampung",
+    "regency": "Kota Bandar Lampung",
+    "district": "Bumi Waras",
+    "sub_district": "Bumi Raya",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 6
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 3,
+            "digit3": 5
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 8
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/1871201004001/candidate1/digit2/Screenshot 2025-01-03 at 20.29.16.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/1871201004001/candidate1/digit3/Screenshot 2025-01-03 at 20.29.19.png"
+        },
+        "candidate2": {
+            "digit1": "/Volumes/Dwika/fyp/data_election/digits/1871201004001/candidate2/digit1/Screenshot 2025-02-18 at 21.58.32.png",
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/1871201004001/candidate2/digit2/Screenshot 2025-01-03 at 20.29.26.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/1871201004001/candidate2/digit3/Screenshot 2025-01-03 at 20.29.29.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/1871201004001/candidate3/digit2/Screenshot 2025-01-03 at 20.29.34.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/1871201004001/candidate3/digit3/Screenshot 2025-01-03 at 20.29.37.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 6
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 3,
+            "digit3": 5
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 4
+        }
+    }
+}

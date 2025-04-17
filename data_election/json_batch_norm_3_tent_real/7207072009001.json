@@ -1,0 +1,59 @@
+{
+    "id": "7207072009001",
+    "province": "Sulawesi Tengah",
+    "regency": "Banggai Kepulauan",
+    "district": "Buko",
+    "sub_district": "Batangono",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 5
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 2,
+            "digit3": 3
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 3
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/7207072009001/candidate1/digit2/Screenshot 2025-01-03 at 22.47.39.png",
+            "digit3": "../code/fyp/data_election/digits/7207072009001/candidate1/digit3/Screenshot 2025-01-03 at 22.47.41.png"
+        },
+        "candidate2": {
+            "digit1": "../code/fyp/data_election/digits/7207072009001/candidate2/digit1/Screenshot 2025-01-03 at 22.47.44.png",
+            "digit2": "../code/fyp/data_election/digits/7207072009001/candidate2/digit2/Screenshot 2025-01-03 at 22.47.47.png",
+            "digit3": "../code/fyp/data_election/digits/7207072009001/candidate2/digit3/Screenshot 2025-01-03 at 22.47.50.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/7207072009001/candidate3/digit2/Screenshot 2025-01-03 at 22.47.54.png",
+            "digit3": "../code/fyp/data_election/digits/7207072009001/candidate3/digit3/Screenshot 2025-01-03 at 22.47.57.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": 2,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        }
+    }
+}

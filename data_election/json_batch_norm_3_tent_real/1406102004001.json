@@ -1,0 +1,59 @@
+{
+    "id": "1405122010001",
+    "province": "Riau",
+    "regency": "Rokan Hulu",
+    "district": "Bangun Purba",
+    "sub_district": "Bangun Purba",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": 1,
+            "digit2": 6,
+            "digit3": 1
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 9,
+            "digit3": 5
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 3
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/1405122010001/candidate1/digit2/Screenshot 2025-01-03 at 21.59.01.png",
+            "digit3": "../code/fyp/data_election/digits/1405122010001/candidate1/digit3/Screenshot 2025-01-03 at 21.59.04.png"
+        },
+        "candidate2": {
+            "digit1": "../code/fyp/data_election/digits/1405122010001/candidate2/digit1/Screenshot 2025-01-03 at 21.59.07.png",
+            "digit2": "../code/fyp/data_election/digits/1405122010001/candidate2/digit2/Screenshot 2025-01-03 at 21.59.10.png",
+            "digit3": "../code/fyp/data_election/digits/1405122010001/candidate2/digit3/Screenshot 2025-01-03 at 21.59.12.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/1405122010001/candidate3/digit2/Screenshot 2025-01-03 at 21.59.15.png",
+            "digit3": "../code/fyp/data_election/digits/1405122010001/candidate3/digit3/Screenshot 2025-01-03 at 21.59.17.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 5,
+            "digit3": 5
+        },
+        "candidate2": {
+            "digit1": 2,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 6
+        }
+    }
+}

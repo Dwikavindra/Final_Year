@@ -1,0 +1,59 @@
+{
+    "id": "5304211001003",
+    "province": "Nusa Tenggara Timur",
+    "regency": "Belu",
+    "district": "Atambua Barat",
+    "sub_district": "Bardao",
+    "ballot_number": "03",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 4,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 8
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/5304211001003/candidate1/digit2/Screenshot 2025-01-03 at 21.45.49.png",
+            "digit3": "../code/fyp/data_election/digits/5304211001003/candidate1/digit3/Screenshot 2025-01-03 at 21.45.51.png"
+        },
+        "candidate2": {
+            "digit1": "../code/fyp/data_election/digits/5304211001003/candidate2/digit1/Screenshot 2025-01-03 at 21.45.55.png",
+            "digit2": "../code/fyp/data_election/digits/5304211001003/candidate2/digit2/Screenshot 2025-01-03 at 21.45.58.png",
+            "digit3": "../code/fyp/data_election/digits/5304211001003/candidate2/digit3/Screenshot 2025-01-03 at 21.46.00.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/5304211001003/candidate3/digit2/Screenshot 2025-01-03 at 21.46.33.png",
+            "digit3": "../code/fyp/data_election/digits/5304211001003/candidate3/digit3/Screenshot 2025-01-03 at 21.46.36.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        }
+    }
+}

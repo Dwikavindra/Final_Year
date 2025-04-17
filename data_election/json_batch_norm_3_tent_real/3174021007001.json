@@ -1,0 +1,59 @@
+{
+    "id": "3174021007001",
+    "province": "DKI Jakarta",
+    "regency": "Kota Administrasi Jakarta Selatan",
+    "district": "Setiabudi",
+    "sub_district": "Guntur",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 0
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 6,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": 1,
+            "digit2": 0,
+            "digit3": 1
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/3174021007001/candidate1/digit2/Screenshot 2024-12-16 at 23.02.14.png",
+            "digit3": "../code/fyp/data_election/digits/3174021007001/candidate1/digit3/Screenshot 2024-12-16 at 23.02.18.png"
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/3174021007001/candidate2/digit2/Screenshot 2024-12-16 at 23.02.23.png",
+            "digit3": "../code/fyp/data_election/digits/3174021007001/candidate2/digit3/Screenshot 2024-12-16 at 23.02.27.png"
+        },
+        "candidate3": {
+            "digit1": "../code/fyp/data_election/digits/3174021007001/candidate3/digit1/Screenshot 2024-12-16 at 23.02.33.png",
+            "digit2": "../code/fyp/data_election/digits/3174021007001/candidate3/digit2/Screenshot 2024-12-16 at 23.02.42.png",
+            "digit3": "../code/fyp/data_election/digits/3174021007001/candidate3/digit3/Screenshot 2024-12-16 at 23.02.47.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": 2,
+            "digit2": 2,
+            "digit3": 2
+        }
+    }
+}

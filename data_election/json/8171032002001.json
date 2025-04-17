@@ -1,0 +1,59 @@
+{
+    "id": "8171032002001",
+    "province": "Maluku",
+    "regency": "Kota Ambon",
+    "district": "Baguala",
+    "sub_district": "Halong",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 8,
+            "digit3": 3
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 3
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/8171032002001/candidate1/digit3/Screenshot 2025-02-18 at 22.14.30.png"
+        },
+        "candidate2": {
+            "digit1": "/Volumes/Dwika/fyp/data_election/digits/8171032002001/candidate2/digit1/Screenshot 2025-02-18 at 23.21.40.png",
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/8171032002001/candidate2/digit2/Screenshot 2025-01-03 at 20.58.33.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/8171032002001/candidate2/digit3/Screenshot 2025-01-03 at 20.58.36.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/8171032002001/candidate3/digit2/Screenshot 2025-01-03 at 20.58.41.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/8171032002001/candidate3/digit3/Screenshot 2025-01-03 at 20.58.45.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 9,
+            "digit3": 3
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 3
+        }
+    }
+}

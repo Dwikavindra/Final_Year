@@ -1,0 +1,59 @@
+{
+    "id": "3402092002001",
+    "province": "Daerah Istimewa Yogyakarta",
+    "regency": "Jetis",
+    "district": "Canden",
+    "sub_district": "Dlingo",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 8
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 1,
+            "digit3": 7
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 6,
+            "digit3": 5
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/3402092002001/candidate1/digit2/Screenshot 2024-12-17 at 00.12.04.png",
+            "digit3": "../code/fyp/data_election/digits/3402092002001/candidate1/digit3/Screenshot 2024-12-17 at 00.12.08.png"
+        },
+        "candidate2": {
+            "digit1": "../code/fyp/data_election/digits/3402092002001/candidate2/digit1/Screenshot 2024-12-17 at 00.12.13.png",
+            "digit2": "../code/fyp/data_election/digits/3402092002001/candidate2/digit2/Screenshot 2024-12-17 at 00.12.17.png",
+            "digit3": "../code/fyp/data_election/digits/3402092002001/candidate2/digit3/Screenshot 2024-12-17 at 00.12.21.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/3402092002001/candidate3/digit2/Screenshot 2024-12-17 at 00.12.26.png",
+            "digit3": "../code/fyp/data_election/digits/3402092002001/candidate3/digit3/Screenshot 2024-12-17 at 00.12.29.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": 2,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        }
+    }
+}

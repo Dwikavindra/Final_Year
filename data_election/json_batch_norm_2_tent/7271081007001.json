@@ -1,0 +1,59 @@
+{
+    "id": "7271081007001",
+    "province": "Sulawesi Tengah",
+    "regency": "Kota Palu",
+    "district": "Mantikulore",
+    "sub_district": "Kawatuna",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 8,
+            "digit3": 1
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 1,
+            "digit3": 7
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 5
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/7271081007001/candidate1/digit2/Screenshot 2025-01-03 at 22.56.44.png",
+            "digit3": "../code/fyp/data_election/digits/7271081007001/candidate1/digit3/Screenshot 2025-01-03 at 22.56.46.png"
+        },
+        "candidate2": {
+            "digit1": "../code/fyp/data_election/digits/7271081007001/candidate2/digit1/Screenshot 2025-01-03 at 22.56.50.png",
+            "digit2": "../code/fyp/data_election/digits/7271081007001/candidate2/digit2/Screenshot 2025-01-03 at 22.56.52.png",
+            "digit3": "../code/fyp/data_election/digits/7271081007001/candidate2/digit3/Screenshot 2025-01-03 at 22.56.54.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/7271081007001/candidate3/digit2/Screenshot 2025-01-03 at 22.56.58.png",
+            "digit3": "../code/fyp/data_election/digits/7271081007001/candidate3/digit3/Screenshot 2025-01-03 at 22.57.01.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 1,
+            "digit3": 3
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 3
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "id": "3522132013001",
+    "province": "Jawa Timur",
+    "regency": "Bojonegoro",
+    "district": "Balen",
+    "sub_district": "Balenrejo",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 5
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 7,
+            "digit3": 9
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 0
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3522132013001/candidate1/digit2/Screenshot 2025-01-03 at 18.28.11.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3522132013001/candidate1/digit3/Screenshot 2025-01-03 at 18.28.16.png"
+        },
+        "candidate2": {
+            "digit1": "/Volumes/Dwika/fyp/data_election/digits/3522132013001/candidate2/digit1/Screenshot 2025-01-03 at 18.28.20.png",
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3522132013001/candidate2/digit2/Screenshot 2025-01-03 at 18.28.25.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3522132013001/candidate2/digit3/Screenshot 2025-01-03 at 18.28.29.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3522132013001/candidate3/digit2/Screenshot 2025-01-03 at 18.28.33.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3522132013001/candidate3/digit3/Screenshot 2025-01-03 at 18.28.37.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 8
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 7,
+            "digit3": 4
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 0
+        }
+    }
+}

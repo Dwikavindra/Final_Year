@@ -1,0 +1,59 @@
+{
+    "id": "1801212004001",
+    "province": "Lampung",
+    "regency": "Lampung Selatan",
+    "district": "Bakauheni",
+    "sub_district": "Bakauheni",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 1,
+            "digit3": 1
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 2
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/1801212004001/candidate1/digit2/Screenshot 2025-01-03 at 20.36.31.png",
+            "digit3": "../code/fyp/data_election/digits/1801212004001/candidate1/digit3/Screenshot 2025-01-03 at 20.36.35.png"
+        },
+        "candidate2": {
+            "digit1": "../code/fyp/data_election/digits/1801212004001/candidate2/digit1/Screenshot 2025-01-03 at 20.36.39.png",
+            "digit2": "../code/fyp/data_election/digits/1801212004001/candidate2/digit2/Screenshot 2025-01-03 at 20.36.43.png",
+            "digit3": "../code/fyp/data_election/digits/1801212004001/candidate2/digit3/Screenshot 2025-01-03 at 20.36.52.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/1801212004001/candidate3/digit2/Screenshot 2025-01-03 at 20.36.52.png",
+            "digit3": "../code/fyp/data_election/digits/1801212004001/candidate3/digit3/Screenshot 2025-01-03 at 20.36.58.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": 2,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        }
+    }
+}

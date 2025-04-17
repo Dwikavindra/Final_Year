@@ -1,0 +1,59 @@
+{
+    "id": "3216022008002",
+    "province": "Jawa Barat",
+    "regency": "Bekasi",
+    "district": "Babelan",
+    "sub_district": "Babelankota",
+    "ballot_number": "02",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 7,
+            "digit3": 1
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 2,
+            "digit3": 4
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 4
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/3216022008002/candidate1/digit2/Screenshot 2025-01-03 at 17.48.53.png",
+            "digit3": "../code/fyp/data_election/digits/3216022008002/candidate1/digit3/Screenshot 2025-01-03 at 17.48.57.png"
+        },
+        "candidate2": {
+            "digit1": "../code/fyp/data_election/digits/3216022008002/candidate2/digit1/Screenshot 2025-01-03 at 17.49.02.png",
+            "digit2": "../code/fyp/data_election/digits/3216022008002/candidate2/digit2/Screenshot 2025-01-03 at 17.49.06.png",
+            "digit3": "../code/fyp/data_election/digits/3216022008002/candidate2/digit3/Screenshot 2025-01-03 at 17.49.11.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/3216022008002/candidate3/digit2/Screenshot 2025-01-03 at 17.49.20.png",
+            "digit3": "../code/fyp/data_election/digits/3216022008002/candidate3/digit3/Screenshot 2025-01-03 at 17.49.43.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": 2,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        }
+    }
+}

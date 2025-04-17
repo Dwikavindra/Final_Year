@@ -1,0 +1,59 @@
+{
+    "id": "1703152005001",
+    "province": "Bengkulu",
+    "regency": "Bengkulu Utara",
+    "district": "Air Besi",
+    "sub_district": "Datar Macang",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 7
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 3,
+            "digit3": 7
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 7
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/1703152005001/candidate1/digit2/Screenshot 2024-12-25 at 16.28.35.png",
+            "digit3": "../code/fyp/data_election/digits/1703152005001/candidate1/digit3/Screenshot 2024-12-25 at 16.28.41.png"
+        },
+        "candidate2": {
+            "digit1": "../code/fyp/data_election/digits/1703152005001/candidate2/digit1/Screenshot 2024-12-25 at 16.28.50.png",
+            "digit2": "../code/fyp/data_election/digits/1703152005001/candidate2/digit2/Screenshot 2024-12-25 at 16.29.33.png",
+            "digit3": "../code/fyp/data_election/digits/1703152005001/candidate2/digit3/Screenshot 2024-12-25 at 16.29.39.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": "../code/fyp/data_election/digits/1703152005001/candidate3/digit3/Screenshot 2024-12-25 at 16.29.44.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 3
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 3
+        }
+    }
+}

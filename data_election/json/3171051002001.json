@@ -1,0 +1,59 @@
+{
+    "id": "3171051002001",
+    "province": "DKI Jakarta",
+    "regency": "Kota Administrasi Jakarta Pusat",
+    "district": "Cempaka Putih",
+    "sub_district": "Cempaka Putih Barat",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": 1,
+            "digit2": 0,
+            "digit3": 1
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 7,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 5
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": "/Volumes/Dwika/fyp/data_election/digits/3171051002001/candidate1/digit1/Screenshot 2024-12-16 at 22.24.13.png",
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3171051002001/candidate1/digit2/Screenshot 2024-12-16 at 22.24.20.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3171051002001/candidate1/digit3/Screenshot 2024-12-16 at 22.24.28.png"
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3171051002001/candidate2/digit2/Screenshot 2024-12-16 at 22.24.35.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3171051002001/candidate2/digit3/Screenshot 2024-12-16 at 22.24.39.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3171051002001/candidate3/digit2/Screenshot 2024-12-16 at 22.24.45.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3171051002001/candidate3/digit3/Screenshot 2024-12-16 at 22.24.49.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 4
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 0,
+            "digit3": 9
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 4
+        }
+    }
+}

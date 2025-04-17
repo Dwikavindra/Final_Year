@@ -1,0 +1,59 @@
+{
+    "id": "6172021004001",
+    "province": "Kalimantan Barat",
+    "regency": "Kota Singkawang",
+    "district": "Singkawang Barat",
+    "sub_district": "Kuala",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 9
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 7,
+            "digit3": 9
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 7,
+            "digit3": 7
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/6172021004001/candidate1/digit2/Screenshot 2025-01-03 at 18.49.13.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/6172021004001/candidate1/digit3/Screenshot 2025-01-03 at 18.49.17.png"
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/6172021004001/candidate2/digit2/Screenshot 2025-02-18 at 22.26.14.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/6172021004001/candidate2/digit3/Screenshot 2025-01-03 at 18.49.24.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/6172021004001/candidate3/digit2/Screenshot 2025-02-18 at 23.07.56.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/6172021004001/candidate3/digit3/Screenshot 2025-01-03 at 18.49.31.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 4
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 4
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 7
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "id": "3402052002004",
+    "province": "Daerah Istimewa Yogyakarta",
+    "regency": "Bantul",
+    "district": "Bambanglipuro",
+    "sub_district": "Mulyodadi",
+    "ballot_number": "04",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 5,
+            "digit3": 8
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 2,
+            "digit3": 4
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 6,
+            "digit3": 3
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/3402052002004/candidate1/digit2/Screenshot 2024-12-16 at 23.53.01.png",
+            "digit3": "../code/fyp/data_election/digits/3402052002004/candidate1/digit3/Screenshot 2024-12-16 at 23.53.05.png"
+        },
+        "candidate2": {
+            "digit1": "../code/fyp/data_election/digits/3402052002004/candidate2/digit1/Screenshot 2024-12-16 at 23.53.10.png",
+            "digit2": "../code/fyp/data_election/digits/3402052002004/candidate2/digit2/Screenshot 2024-12-16 at 23.53.17.png",
+            "digit3": "../code/fyp/data_election/digits/3402052002004/candidate2/digit3/Screenshot 2024-12-16 at 23.53.21.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/3402052002004/candidate3/digit2/Screenshot 2024-12-16 at 23.53.27.png",
+            "digit3": "../code/fyp/data_election/digits/3402052002004/candidate3/digit3/Screenshot 2024-12-16 at 23.53.31.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": 2,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        }
+    }
+}

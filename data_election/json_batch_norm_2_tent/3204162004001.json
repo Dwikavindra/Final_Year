@@ -1,0 +1,59 @@
+{
+    "id": "3204162004001",
+    "province": "Jawa Barat",
+    "regency": "Bandung",
+    "district": "Arjasari",
+    "sub_district": "Ancolmekar",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": 1,
+            "digit2": 0,
+            "digit3": 4
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 9,
+            "digit3": 4
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 2
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": "../code/fyp/data_election/digits/3204162004001/candidate1/digit1/Screenshot 2025-01-03 at 17.41.45.png",
+            "digit2": "../code/fyp/data_election/digits/3204162004001/candidate1/digit2/Screenshot 2025-01-03 at 17.41.49.png",
+            "digit3": "../code/fyp/data_election/digits/3204162004001/candidate1/digit3/Screenshot 2025-01-03 at 17.41.53.png"
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/3204162004001/candidate2/digit2/Screenshot 2025-01-03 at 17.41.58.png",
+            "digit3": "../code/fyp/data_election/digits/3204162004001/candidate2/digit3/Screenshot 2025-01-03 at 17.42.02.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": "../code/fyp/data_election/digits/3204162004001/candidate3/digit3/Screenshot 2025-01-03 at 17.42.07.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": 1,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 3
+        }
+    }
+}

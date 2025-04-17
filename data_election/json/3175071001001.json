@@ -1,0 +1,59 @@
+{
+    "id": "3175071001001",
+    "province": "DKI Jakarta",
+    "regency": "Kota Administrasi Jakarta Timur",
+    "district": "Ciracas",
+    "sub_district": "Cibubur",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 8,
+            "digit3": 9
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 9,
+            "digit3": 5
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 1
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3175071001001/candidate1/digit2/Screenshot 2024-12-16 at 23.15.54.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3175071001001/candidate1/digit3/Screenshot 2024-12-16 at 23.16.01.png"
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3175071001001/candidate2/digit2/Screenshot 2024-12-16 at 23.16.06.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3175071001001/candidate2/digit3/Screenshot 2024-12-16 at 23.16.10.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3175071001001/candidate3/digit2/Screenshot 2024-12-16 at 23.16.16.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3175071001001/candidate3/digit3/Screenshot 2024-12-16 at 23.16.21.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 9
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 5
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 4
+        }
+    }
+}

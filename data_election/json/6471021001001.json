@@ -1,0 +1,59 @@
+{
+    "id": "6471021001001",
+    "province": "Kalimantan Timur",
+    "regency": "Kota Balikpapan",
+    "district": "Balikpapan Barat",
+    "sub_district": "Baru Lir",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 6,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 7,
+            "digit3": 6
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 9
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/6471021001001/candidate1/digit2/Screenshot 2025-01-03 at 19.29.42.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/6471021001001/candidate1/digit3/Screenshot 2025-01-03 at 19.29.42.png"
+        },
+        "candidate2": {
+            "digit1": "/Volumes/Dwika/fyp/data_election/digits/6471021001001/candidate2/digit1/Screenshot 2025-02-18 at 21.28.02.png",
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/6471021001001/candidate2/digit2/Screenshot 2025-01-03 at 19.29.51.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/6471021001001/candidate2/digit3/Screenshot 2025-02-18 at 22.48.45.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/6471021001001/candidate3/digit3/Screenshot 2025-01-03 at 19.30.02.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 7,
+            "digit3": 6
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 9
+        }
+    }
+}

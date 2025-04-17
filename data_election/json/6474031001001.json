@@ -1,0 +1,59 @@
+{
+    "id": "6474031001001",
+    "province": "Kalimantan Timur",
+    "regency": "Kota Bontang",
+    "district": "Bontang Barat",
+    "sub_district": "Belimbing",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": 1,
+            "digit2": 1,
+            "digit3": 3
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 6,
+            "digit3": 4
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 7
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": "/Volumes/Dwika/fyp/data_election/digits/6474031001001/candidate1/digit1/Screenshot 2025-01-03 at 19.31.51.png",
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/6474031001001/candidate1/digit2/Screenshot 2025-01-03 at 19.31.55.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/6474031001001/candidate1/digit3/Screenshot 2025-01-03 at 19.31.59.png"
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/6474031001001/candidate2/digit2/Screenshot 2025-01-03 at 19.32.03.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/6474031001001/candidate2/digit3/Screenshot 2025-01-03 at 19.32.07.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/6474031001001/candidate3/digit2/Screenshot 2025-01-03 at 19.32.11.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/6474031001001/candidate3/digit3/Screenshot 2025-01-03 at 19.32.16.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": 4,
+            "digit2": 4,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 6,
+            "digit3": 4
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 7
+        }
+    }
+}

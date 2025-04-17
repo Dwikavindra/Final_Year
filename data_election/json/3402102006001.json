@@ -1,0 +1,59 @@
+{
+    "id": "3402102006001",
+    "province": "Daerah Istimewa Yogyakarta",
+    "regency": "Bantul",
+    "district": "Imogiri",
+    "sub_district": "Girirejo",
+    "ballot_number": "04",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 0,
+            "digit3": 7
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 7,
+            "digit3": 7
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3402102006001/candidate1/digit2/Screenshot 2024-12-17 at 00.06.27.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3402102006001/candidate1/digit3/Screenshot 2025-02-18 at 21.41.49.png"
+        },
+        "candidate2": {
+            "digit1": "/Volumes/Dwika/fyp/data_election/digits/3402102006001/candidate2/digit1/Screenshot 2025-02-18 at 23.08.52.png",
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3402102006001/candidate2/digit2/Screenshot 2024-12-17 at 00.06.42.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3402102006001/candidate2/digit3/Screenshot 2024-12-17 at 00.06.46.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3402102006001/candidate3/digit2/Screenshot 2024-12-17 at 00.06.50.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3402102006001/candidate3/digit3/Screenshot 2024-12-17 at 00.06.53.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 4
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 0,
+            "digit3": 1
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 1
+        }
+    }
+}

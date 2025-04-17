@@ -1,0 +1,59 @@
+{
+    "id": "7503092004001",
+    "province": "Gorontalo",
+    "regency": "Bone Bolango",
+    "district": "Bone",
+    "sub_district": "Bilonlantunga",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 1
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 6,
+            "digit3": 1
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 6
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/7503092004001/candidate1/digit2/Screenshot 2024-12-25 at 16.48.51.png",
+            "digit3": "../code/fyp/data_election/digits/7503092004001/candidate1/digit3/Screenshot 2024-12-25 at 16.48.55.png"
+        },
+        "candidate2": {
+            "digit1": "../code/fyp/data_election/digits/7503092004001/candidate2/digit1/Screenshot 2024-12-25 at 16.49.00.png",
+            "digit2": "../code/fyp/data_election/digits/7503092004001/candidate2/digit2/Screenshot 2024-12-25 at 16.49.08.png",
+            "digit3": "../code/fyp/data_election/digits/7503092004001/candidate2/digit3/Screenshot 2024-12-25 at 16.49.12.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": "../code/fyp/data_election/digits/7503092004001/candidate3/digit3/Screenshot 2024-12-25 at 16.49.16.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 1
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 3,
+            "digit3": 1
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 3
+        }
+    }
+}

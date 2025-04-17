@@ -1,0 +1,59 @@
+{
+    "id": "6203082003001",
+    "province": "Kalimantan Tengah",
+    "regency": "Kapuas",
+    "district": "Basarang",
+    "sub_district": "Basarang",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 5,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 7,
+            "digit3": 4
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 2
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/6203082003001/candidate1/digit2/Screenshot 2025-01-03 at 19.20.58.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/6203082003001/candidate1/digit3/Screenshot 2025-01-03 at 19.21.23.png"
+        },
+        "candidate2": {
+            "digit1": "/Volumes/Dwika/fyp/data_election/digits/6203082003001/candidate2/digit1/Screenshot 2025-01-03 at 19.21.26.png",
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/6203082003001/candidate2/digit2/Screenshot 2025-01-03 at 19.21.29.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/6203082003001/candidate2/digit3/Screenshot 2025-01-03 at 19.21.32.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/6203082003001/candidate3/digit2/Screenshot 2025-01-03 at 19.21.37.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/6203082003001/candidate3/digit3/Screenshot 2025-01-03 at 19.21.41.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 9,
+            "digit3": 4
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 1,
+            "digit3": 4
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 2
+        }
+    }
+}

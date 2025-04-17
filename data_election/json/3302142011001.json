@@ -1,0 +1,59 @@
+{
+    "id": "3302142011001",
+    "province": "Jawa Tengah",
+    "regency": "Banyumas",
+    "district": "Ajibaranng",
+    "sub_district": "Ajibarang Kulon",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 9
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 7,
+            "digit3": 8
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 6,
+            "digit3": 4
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3302142011001/candidate1/digit2/Screenshot 2025-01-03 at 18.06.39.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3302142011001/candidate1/digit3/Screenshot 2025-01-03 at 18.06.43.png"
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3302142011001/candidate2/digit2/Screenshot 2025-01-03 at 18.06.46.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3302142011001/candidate2/digit3/Screenshot 2025-01-03 at 18.06.52.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3302142011001/candidate3/digit2/Screenshot 2025-01-03 at 18.06.56.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3302142011001/candidate3/digit3/Screenshot 2025-01-03 at 18.07.00.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 4
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 1
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 6,
+            "digit3": 4
+        }
+    }
+}

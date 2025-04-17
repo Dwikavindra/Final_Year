@@ -1,0 +1,59 @@
+{
+    "id": "3101021002002",
+    "province": "DKI Jakarta",
+    "regency": "Administrasi Kepulauan Seribu Jakarta",
+    "district": "Kepulaun Seribu Selatan",
+    "sub_district": "Pulau Tidung",
+    "ballot_number": "02",
+    "realResult": {
+        "candidate1": {
+            "digit1": 1,
+            "digit2": 1,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 8,
+            "digit3": 3
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 0
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": "../code/fyp/data_election/digits/3101021002002/candidate1/digit1/Screenshot 2024-12-01 at 16.45.29.png",
+            "digit2": "../code/fyp/data_election/digits/3101021002002/candidate1/digit2/Screenshot 2024-12-01 at 16.45.34.png",
+            "digit3": "../code/fyp/data_election/digits/3101021002002/candidate1/digit3/Screenshot 2024-12-01 at 16.45.40.png"
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/3101021002002/candidate2/digit2/Screenshot 2024-12-01 at 16.46.52.png",
+            "digit3": "../code/fyp/data_election/digits/3101021002002/candidate2/digit3/Screenshot 2024-12-01 at 16.46.57.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/3101021002002/candidate3/digit2/Screenshot 2024-12-01 at 16.47.16.png",
+            "digit3": "../code/fyp/data_election/digits/3101021002002/candidate3/digit3/Screenshot 2024-12-01 at 16.47.26.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": 2,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        }
+    }
+}

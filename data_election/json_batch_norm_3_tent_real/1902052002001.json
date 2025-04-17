@@ -1,0 +1,59 @@
+{
+    "id": "1902052002001",
+    "province": "Kepulauan Bangka Belitung",
+    "regency": "Belitung",
+    "district": "Badau",
+    "sub_district": "Air Batu Buding",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 1
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 4,
+            "digit3": 0
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 1
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/1902052002001/candidate1/digit2/Screenshot 2025-01-03 at 20.06.10.png",
+            "digit3": "../code/fyp/data_election/digits/1902052002001/candidate1/digit3/Screenshot 2025-01-03 at 20.06.13.png"
+        },
+        "candidate2": {
+            "digit1": "../code/fyp/data_election/digits/1902052002001/candidate2/digit1/Screenshot 2025-01-03 at 20.06.17.png",
+            "digit2": "../code/fyp/data_election/digits/1902052002001/candidate2/digit2/Screenshot 2025-01-03 at 20.06.20.png",
+            "digit3": "../code/fyp/data_election/digits/1902052002001/candidate2/digit3/Screenshot 2025-01-03 at 20.06.23.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/1902052002001/candidate3/digit2/Screenshot 2025-01-03 at 20.06.27.png",
+            "digit3": "../code/fyp/data_election/digits/1902052002001/candidate3/digit3/Screenshot 2025-01-03 at 20.06.29.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": 2,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        }
+    }
+}

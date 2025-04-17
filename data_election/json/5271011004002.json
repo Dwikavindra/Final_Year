@@ -1,0 +1,59 @@
+{
+    "id": "5271011004002",
+    "province": "Nusa Tenggara Barat",
+    "regency": "Kota Mataram",
+    "district": "Ampenan",
+    "sub_district": "Ampenan Selatan",
+    "ballot_number": "02",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 6,
+            "digit3": 5
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 2,
+            "digit3": 4
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 4
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/5271011004002/candidate1/digit2/Screenshot 2025-01-03 at 21.35.23.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/5271011004002/candidate1/digit3/Screenshot 2025-01-03 at 21.35.26.png"
+        },
+        "candidate2": {
+            "digit1": "/Volumes/Dwika/fyp/data_election/digits/5271011004002/candidate2/digit1/Screenshot 2025-01-03 at 21.35.29.png",
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/5271011004002/candidate2/digit2/Screenshot 2025-01-03 at 21.35.31.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/5271011004002/candidate2/digit3/Screenshot 2025-01-03 at 21.35.35.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/5271011004002/candidate3/digit2/Screenshot 2025-01-03 at 21.35.38.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/5271011004002/candidate3/digit3/Screenshot 2025-01-03 at 21.35.41.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 6,
+            "digit3": 5
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 2,
+            "digit3": 4
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 4
+        }
+    }
+}

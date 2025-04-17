@@ -1,0 +1,59 @@
+{
+    "id": "3172031001002",
+    "province": "DKI Jakarta",
+    "regency": "Kota Administrasi Jakarta Utara",
+    "district": "Koja",
+    "sub_district": "Koja",
+    "ballot_number": "02",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 9,
+            "digit3": 6
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 9,
+            "digit3": 8
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 6
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/3172031001002/candidate1/digit2/Screenshot 2024-12-16 at 23.30.39.png",
+            "digit3": "../code/fyp/data_election/digits/3172031001002/candidate1/digit3/Screenshot 2024-12-16 at 23.30.43.png"
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/3172031001002/candidate2/digit2/Screenshot 2024-12-16 at 23.30.48.png",
+            "digit3": "../code/fyp/data_election/digits/3172031001002/candidate2/digit3/Screenshot 2024-12-16 at 23.30.53.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/3172031001002/candidate3/digit2/Screenshot 2024-12-16 at 23.30.58.png",
+            "digit3": "../code/fyp/data_election/digits/3172031001002/candidate3/digit3/Screenshot 2024-12-16 at 23.31.02.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        }
+    }
+}

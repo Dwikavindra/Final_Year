@@ -1,0 +1,59 @@
+{
+    "id": "7410031010001",
+    "province": "Sulawesi Tenggara",
+    "regency": "Buton Utara",
+    "district": "Bonegunu",
+    "sub_district": "Bonegunu",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 0
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 9,
+            "digit3": 4
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 5
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/7410031010001/candidate1/digit2/Screenshot 2025-01-03 at 23.09.33.png",
+            "digit3": "../code/fyp/data_election/digits/7410031010001/candidate1/digit3/Screenshot 2025-01-03 at 23.09.36.png"
+        },
+        "candidate2": {
+            "digit1": "../code/fyp/data_election/digits/7410031010001/candidate2/digit1/Screenshot 2025-01-03 at 23.09.39.png",
+            "digit2": "../code/fyp/data_election/digits/7410031010001/candidate2/digit2/Screenshot 2025-01-03 at 23.09.47.png",
+            "digit3": "../code/fyp/data_election/digits/7410031010001/candidate2/digit3/Screenshot 2025-01-03 at 23.09.50.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": "../code/fyp/data_election/digits/7410031010001/candidate3/digit3/Screenshot 2025-01-03 at 23.09.55.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 3
+        }
+    }
+}

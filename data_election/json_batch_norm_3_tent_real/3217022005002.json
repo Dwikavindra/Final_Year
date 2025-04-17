@@ -1,0 +1,59 @@
+{
+    "id": "3217022005002",
+    "province": "Jawa Barat",
+    "regency": "Bandung Barat",
+    "district": "Parongpong",
+    "sub_district": "Ciwaruga",
+    "ballot_number": "02",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 9,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 1,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 3
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/3217022005002/candidate1/digit2/Screenshot 2025-01-03 at 17.45.49.png",
+            "digit3": "../code/fyp/data_election/digits/3217022005002/candidate1/digit3/Screenshot 2025-01-03 at 17.45.54.png"
+        },
+        "candidate2": {
+            "digit1": "../code/fyp/data_election/digits/3217022005002/candidate2/digit1/Screenshot 2025-01-03 at 17.46.02.png",
+            "digit2": "../code/fyp/data_election/digits/3217022005002/candidate2/digit2/Screenshot 2025-01-03 at 17.46.08.png",
+            "digit3": "../code/fyp/data_election/digits/3217022005002/candidate2/digit3/Screenshot 2025-01-03 at 17.46.13.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/3217022005002/candidate3/digit2/Screenshot 2025-01-03 at 17.46.17.png",
+            "digit3": "../code/fyp/data_election/digits/3217022005002/candidate3/digit3/Screenshot 2025-01-03 at 17.46.22.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": 2,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        }
+    }
+}

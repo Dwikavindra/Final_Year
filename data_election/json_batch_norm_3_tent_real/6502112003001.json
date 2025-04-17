@@ -1,0 +1,59 @@
+{
+    "id": "6502112003001",
+    "province": "Kalimantan Utara",
+    "regency": "Malinau",
+    "district": "Bahau Halu",
+    "sub_district": "Long Berini",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 6,
+            "digit3": 9
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 9
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": "../code/fyp/data_election/digits/6502112003001/candidate1/digit3/Screenshot 2025-01-03 at 19.47.41.png"
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/6502112003001/candidate2/digit2/Screenshot 2025-01-03 at 19.47.45.png",
+            "digit3": "../code/fyp/data_election/digits/6502112003001/candidate2/digit3/Screenshot 2025-01-03 at 19.47.48.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/6502112003001/candidate3/digit2/Screenshot 2025-01-03 at 19.47.52.png",
+            "digit3": "../code/fyp/data_election/digits/6502112003001/candidate3/digit3/Screenshot 2025-01-03 at 19.47.55.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        }
+    }
+}

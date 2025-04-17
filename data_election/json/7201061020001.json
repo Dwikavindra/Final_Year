@@ -1,0 +1,59 @@
+{
+    "id": "7201061020001",
+    "province": "Sulawesi Tengah",
+    "regency": "Banggai",
+    "district": "Balantak",
+    "sub_district": "Balantak",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 8,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 7,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 3
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/7201061020001/candidate1/digit2/Screenshot 2025-01-03 at 22.45.31.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/7201061020001/candidate1/digit3/Screenshot 2025-01-03 at 22.45.34.png"
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/7201061020001/candidate2/digit2/Screenshot 2025-01-03 at 22.45.37.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/7201061020001/candidate2/digit3/Screenshot 2025-01-03 at 22.45.40.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/7201061020001/candidate3/digit3/Screenshot 2025-01-03 at 22.45.43.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 9
+        }
+    }
+}

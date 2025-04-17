@@ -1,0 +1,59 @@
+{
+    "id": "7103162008001",
+    "province": "Sulawesi Utara",
+    "regency": "Kepulauan Sangihe",
+    "district": "Kendahe",
+    "sub_district": "Kawaluso",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 5
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 4,
+            "digit3": 4
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 3
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": "../code/fyp/data_election/digits/7103162008001/candidate1/digit3/Screenshot 2025-01-03 at 23.26.10.png"
+        },
+        "candidate2": {
+            "digit1": "../code/fyp/data_election/digits/7103162008001/candidate2/digit1/Screenshot 2025-01-03 at 23.26.14.png",
+            "digit2": "../code/fyp/data_election/digits/7103162008001/candidate2/digit2/Screenshot 2025-01-03 at 23.26.16.png",
+            "digit3": "../code/fyp/data_election/digits/7103162008001/candidate2/digit3/Screenshot 2025-01-03 at 23.26.18.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/7103162008001/candidate3/digit2/Screenshot 2025-01-03 at 23.26.21.png",
+            "digit3": "../code/fyp/data_election/digits/7103162008001/candidate3/digit3/Screenshot 2025-01-03 at 23.26.24.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 3
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        }
+    }
+}

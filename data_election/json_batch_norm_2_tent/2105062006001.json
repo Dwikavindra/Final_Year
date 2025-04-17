@@ -1,0 +1,59 @@
+{
+    "id": "2105062006001",
+    "province": "Kepulauan Riau",
+    "regency": "Kepulauan Anambas",
+    "district": "Jemaja",
+    "sub_district": "Air Biru",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 7,
+            "digit3": 9
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 1,
+            "digit3": 5
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 8
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/2105062006001/candidate1/digit2/Screenshot 2025-01-03 at 20.17.56.png",
+            "digit3": "../code/fyp/data_election/digits/2105062006001/candidate1/digit3/Screenshot 2025-01-03 at 20.17.59.png"
+        },
+        "candidate2": {
+            "digit1": "../code/fyp/data_election/digits/2105062006001/candidate2/digit1/Screenshot 2025-01-03 at 20.18.03.png",
+            "digit2": "../code/fyp/data_election/digits/2105062006001/candidate2/digit2/Screenshot 2025-01-03 at 20.18.06.png",
+            "digit3": "../code/fyp/data_election/digits/2105062006001/candidate2/digit3/Screenshot 2025-01-03 at 20.18.09.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/2105062006001/candidate3/digit2/Screenshot 2025-01-03 at 20.18.13.png",
+            "digit3": "../code/fyp/data_election/digits/2105062006001/candidate3/digit3/Screenshot 2025-01-03 at 20.18.15.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 1,
+            "digit3": 3
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        }
+    }
+}

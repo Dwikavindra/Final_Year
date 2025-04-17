@@ -1,0 +1,59 @@
+{
+    "id": "6503052032001",
+    "province": "Kalimantan Utara",
+    "regency": "Nunukan",
+    "district": "Krayan",
+    "sub_district": "Buduk Kinangan",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 1
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 6,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 9
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": "../code/fyp/data_election/digits/6503052032001/candidate1/digit3/Screenshot 2025-01-03 at 19.49.40.png"
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/6503052032001/candidate2/digit2/Screenshot 2025-01-03 at 19.49.43.png",
+            "digit3": "../code/fyp/data_election/digits/6503052032001/candidate2/digit3/Screenshot 2025-01-03 at 19.49.46.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/6503052032001/candidate3/digit2/Screenshot 2025-01-03 at 19.49.50.png",
+            "digit3": "../code/fyp/data_election/digits/6503052032001/candidate3/digit3/Screenshot 2025-01-03 at 19.49.53.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        }
+    }
+}

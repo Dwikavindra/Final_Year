@@ -1,0 +1,59 @@
+{
+    "id": "1807152006001",
+    "province": "Lampung",
+    "regency": "Lampung Timur",
+    "district": "Metro Barat",
+    "sub_district": "Ganjar Agung",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 3
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 5,
+            "digit3": 1
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 3
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/1807152006001/candidate1/digit2/Screenshot 2025-01-03 at 20.42.12.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/1807152006001/candidate1/digit3/Screenshot 2025-01-03 at 20.42.15.png"
+        },
+        "candidate2": {
+            "digit1": "/Volumes/Dwika/fyp/data_election/digits/1807152006001/candidate2/digit1/Screenshot 2025-01-03 at 20.42.19.png",
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/1807152006001/candidate2/digit2/Screenshot 2025-01-03 at 20.42.22.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/1807152006001/candidate2/digit3/Screenshot 2025-01-03 at 20.42.26.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/1807152006001/candidate3/digit2/Screenshot 2025-01-03 at 20.42.30.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/1807152006001/candidate3/digit3/Screenshot 2025-01-03 at 20.42.33.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 3
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 9,
+            "digit3": 1
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 3
+        }
+    }
+}

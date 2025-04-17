@@ -1,0 +1,59 @@
+{
+    "id": "1306072005001",
+    "province": "Sumatera Barat",
+    "regency": "Agam",
+    "district": "Ampe Angkek",
+    "sub_district": "Ampang Gadang",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": 1,
+            "digit2": 1,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 5
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": null
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": "/Volumes/Dwika/fyp/data_election/digits/1306072005001/candidate1/digit1/Screenshot 2025-01-03 at 23.28.59.png",
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/1306072005001/candidate1/digit2/Screenshot 2025-01-03 at 23.29.02.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/1306072005001/candidate1/digit3/Screenshot 2025-01-03 at 23.29.05.png"
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/1306072005001/candidate2/digit2/Screenshot 2025-01-03 at 23.29.08.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/1306072005001/candidate2/digit3/Screenshot 2025-01-03 at 23.29.11.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": null
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": 1,
+            "digit2": 1,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 5
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": null
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "id": "6106142001001",
+    "province": "Kalimantan Barat",
+    "regency": "Kapuas Halu",
+    "district": "Badau",
+    "sub_district": "Badau",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 1
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 4,
+            "digit3": 9
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 7
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/6106142001001/candidate1/digit2/Screenshot 2025-02-18 at 22.22.37.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/6106142001001/candidate1/digit3/Screenshot 2025-01-03 at 18.38.41.png"
+        },
+        "candidate2": {
+            "digit1": "/Volumes/Dwika/fyp/data_election/digits/6106142001001/candidate2/digit1/Screenshot 2025-02-18 at 22.17.16.png",
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/6106142001001/candidate2/digit2/Screenshot 2025-01-03 at 18.38.48.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/6106142001001/candidate2/digit3/Screenshot 2025-01-03 at 18.38.52.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/6106142001001/candidate3/digit2/Screenshot 2025-01-03 at 18.38.55.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/6106142001001/candidate3/digit3/Screenshot 2025-01-03 at 18.39.02.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 1
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 4,
+            "digit3": 4
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 1
+        }
+    }
+}

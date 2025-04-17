@@ -1,0 +1,59 @@
+{
+    "id": "1906052001001",
+    "province": "Kepulauan Bangka Belitung",
+    "regency": "Belitung Timur",
+    "district": "Damar",
+    "sub_district": "Air Kelik",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 3
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 5,
+            "digit3": 6
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 5,
+            "digit3": 4
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/1906052001001/candidate1/digit2/Screenshot 2025-01-03 at 20.08.29.png",
+            "digit3": "../code/fyp/data_election/digits/1906052001001/candidate1/digit3/Screenshot 2025-01-03 at 20.08.32.png"
+        },
+        "candidate2": {
+            "digit1": "../code/fyp/data_election/digits/1906052001001/candidate2/digit1/Screenshot 2025-01-03 at 20.08.36.png",
+            "digit2": "../code/fyp/data_election/digits/1906052001001/candidate2/digit2/Screenshot 2025-01-03 at 20.08.39.png",
+            "digit3": "../code/fyp/data_election/digits/1906052001001/candidate2/digit3/Screenshot 2025-01-03 at 20.08.42.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/1906052001001/candidate3/digit2/Screenshot 2025-01-03 at 20.08.47.png",
+            "digit3": "../code/fyp/data_election/digits/1906052001001/candidate3/digit3/Screenshot 2025-01-03 at 20.08.49.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        }
+    }
+}

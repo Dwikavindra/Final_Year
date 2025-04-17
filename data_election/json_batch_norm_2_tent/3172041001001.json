@@ -1,0 +1,59 @@
+{
+    "id": "3172041001001",
+    "province": "DKI Jakarta",
+    "regency": "Kota Administrasi Jakarta Utara",
+    "district": "Cilincing",
+    "sub_district": "Cilincing",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": 1,
+            "digit2": 1,
+            "digit3": 0
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 7,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 1
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": "../code/fyp/data_election/digits/3172041001001/candidate1/digit1/Screenshot 2024-12-16 at 23.23.02.png",
+            "digit2": "../code/fyp/data_election/digits/3172041001001/candidate1/digit2/Screenshot 2024-12-16 at 23.23.06.png",
+            "digit3": "../code/fyp/data_election/digits/3172041001001/candidate1/digit3/Screenshot 2024-12-16 at 23.23.11.png"
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/3172041001001/candidate2/digit2/Screenshot 2024-12-16 at 23.23.16.png",
+            "digit3": "../code/fyp/data_election/digits/3172041001001/candidate2/digit3/Screenshot 2024-12-16 at 23.23.21.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/3172041001001/candidate3/digit2/Screenshot 2024-12-16 at 23.23.26.png",
+            "digit3": "../code/fyp/data_election/digits/3172041001001/candidate3/digit3/Screenshot 2024-12-16 at 23.23.31.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": 3,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        }
+    }
+}

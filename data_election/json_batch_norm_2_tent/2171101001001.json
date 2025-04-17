@@ -1,0 +1,59 @@
+{
+    "id": "2171101001001",
+    "province": "Kepulauan Riau",
+    "regency": "Kota Batam",
+    "district": "Batam Kota",
+    "sub_district": "Baloi Permai",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 7,
+            "digit3": 4
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 9,
+            "digit3": 0
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 5
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/2171101001001/candidate1/digit2/Screenshot 2025-01-03 at 20.21.28.png",
+            "digit3": "../code/fyp/data_election/digits/2171101001001/candidate1/digit3/Screenshot 2025-01-03 at 20.21.31.png"
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/2171101001001/candidate2/digit2/Screenshot 2025-01-03 at 20.21.34.png",
+            "digit3": "../code/fyp/data_election/digits/2171101001001/candidate2/digit3/Screenshot 2025-01-03 at 20.21.38.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/2171101001001/candidate3/digit2/Screenshot 2025-01-03 at 20.21.41.png",
+            "digit3": "../code/fyp/data_election/digits/2171101001001/candidate3/digit3/Screenshot 2025-01-03 at 20.21.44.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        }
+    }
+}

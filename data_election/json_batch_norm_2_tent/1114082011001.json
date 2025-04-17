@@ -1,0 +1,59 @@
+{
+    "id": "1114082011001",
+    "province": "Daerah Istimewa Yogyakarta",
+    "regency": "Gunung Kidul",
+    "district": "Girisubo",
+    "sub_district": "Balong",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": 1,
+            "digit2": 0,
+            "digit3": 3
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 4
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 1
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": "../code/fyp/data_election/digits/1114082011001/candidate1/digit1/Screenshot 2024-12-25 at 14.54.14.png",
+            "digit2": "../code/fyp/data_election/digits/1114082011001/candidate1/digit2/Screenshot 2024-12-25 at 14.54.20.png",
+            "digit3": "../code/fyp/data_election/digits/1114082011001/candidate1/digit3/Screenshot 2024-12-25 at 14.54.25.png"
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/1114082011001/candidate2/digit2/Screenshot 2024-12-25 at 14.54.31.png",
+            "digit3": "../code/fyp/data_election/digits/1114082011001/candidate2/digit3/Screenshot 2024-12-25 at 14.54.34.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": "../code/fyp/data_election/digits/1114082011001/candidate3/digit3/Screenshot 2024-12-25 at 14.54.14.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": 1,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 1
+        }
+    }
+}

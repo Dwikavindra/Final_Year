@@ -1,0 +1,59 @@
+{
+    "id": "1802272004001",
+    "province": "Lampung",
+    "regency": "Lampung Tengah",
+    "district": "Anak Ratu Aji",
+    "sub_district": "Bandar Putih Tua",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 5,
+            "digit3": 4
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 3
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/1802272004001/candidate1/digit2/Screenshot 2025-01-03 at 20.39.42.png",
+            "digit3": "../code/fyp/data_election/digits/1802272004001/candidate1/digit3/Screenshot 2025-01-03 at 20.39.45.png"
+        },
+        "candidate2": {
+            "digit1": "../code/fyp/data_election/digits/1802272004001/candidate2/digit1/Screenshot 2025-01-03 at 20.39.49.png",
+            "digit2": "../code/fyp/data_election/digits/1802272004001/candidate2/digit2/Screenshot 2025-01-03 at 20.39.55.png",
+            "digit3": "../code/fyp/data_election/digits/1802272004001/candidate2/digit3/Screenshot 2025-01-03 at 20.39.58.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/1802272004001/candidate3/digit2/Screenshot 2025-01-03 at 20.40.02.png",
+            "digit3": "../code/fyp/data_election/digits/1802272004001/candidate3/digit3/Screenshot 2025-01-03 at 20.40.09.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 3,
+            "digit3": 1
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        }
+    }
+}

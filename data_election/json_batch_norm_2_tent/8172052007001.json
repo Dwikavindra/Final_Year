@@ -1,0 +1,59 @@
+{
+    "id": "8172052007001",
+    "province": "Maluku",
+    "regency": "Kota Tual",
+    "district": "Kur Selatan",
+    "sub_district": "Niel",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 6,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 9
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 4
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/8172052007001/candidate1/digit2/Screenshot 2025-01-03 at 21.00.54.png",
+            "digit3": "../code/fyp/data_election/digits/8172052007001/candidate1/digit3/Screenshot 2025-01-03 at 21.00.57.png"
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/8172052007001/candidate2/digit2/Screenshot 2025-01-03 at 21.01.03.png",
+            "digit3": "../code/fyp/data_election/digits/8172052007001/candidate2/digit3/Screenshot 2025-01-03 at 21.01.07.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": "../code/fyp/data_election/digits/8172052007001/candidate3/digit3/Screenshot 2025-01-03 at 21.01.10.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 3
+        }
+    }
+}

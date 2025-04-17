@@ -1,0 +1,59 @@
+{
+    "id": "7306022013001",
+    "province": "Sulawesi Selatan",
+    "regency": "Gowa",
+    "district": "Bajeng",
+    "sub_district": "Bone",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 6,
+            "digit3": 8
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 5,
+            "digit3": 7
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 7
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/7306022013001/candidate1/digit2/Screenshot 2025-01-03 at 22.42.38.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/7306022013001/candidate1/digit3/Screenshot 2025-01-03 at 22.42.41.png"
+        },
+        "candidate2": {
+            "digit1": "/Volumes/Dwika/fyp/data_election/digits/7306022013001/candidate2/digit1/Screenshot 2025-01-03 at 22.42.45.png",
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/7306022013001/candidate2/digit2/Screenshot 2025-01-03 at 22.42.47.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/7306022013001/candidate2/digit3/Screenshot 2025-01-03 at 22.42.50.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/7306022013001/candidate3/digit3/Screenshot 2025-01-03 at 22.42.53.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 4
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 4,
+            "digit3": 1
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 1
+        }
+    }
+}

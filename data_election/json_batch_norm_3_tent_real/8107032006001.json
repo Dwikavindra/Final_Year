@@ -1,0 +1,59 @@
+{
+    "id": "8107032006001",
+    "province": "Maluku",
+    "regency": "Kepulaun Aru",
+    "district": "Aru Tengah",
+    "sub_district": "Lorang",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 6,
+            "digit3": 0
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 6,
+            "digit3": 3
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": "../code/fyp/data_election/digits/8107032006001/candidate1/digit3/Screenshot 2025-01-03 at 20.53.54.png"
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/8107032006001/candidate2/digit2/Screenshot 2025-01-03 at 20.53.59.png",
+            "digit3": "../code/fyp/data_election/digits/8107032006001/candidate2/digit3/Screenshot 2025-01-03 at 20.54.01.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/8107032006001/candidate3/digit2/Screenshot 2025-01-03 at 20.54.06.png",
+            "digit3": "../code/fyp/data_election/digits/8107032006001/candidate3/digit3/Screenshot 2025-01-03 at 20.54.09.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        }
+    }
+}

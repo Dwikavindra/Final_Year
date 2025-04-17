@@ -1,0 +1,59 @@
+{
+    "id": "5107052001001",
+    "province": "Bali",
+    "regency": "Karangasem",
+    "district": "Abang",
+    "sub_district": "Ababi",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 4
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 5,
+            "digit3": 5
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 6,
+            "digit3": 6
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/5107052001001/candidate1/digit3/Screenshot 2024-12-25 at 15.40.54.png"
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/5107052001001/candidate2/digit2/Screenshot 2024-12-25 at 15.41.01.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/5107052001001/candidate2/digit3/Screenshot 2024-12-25 at 15.41.08.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/5107052001001/candidate3/digit2/Screenshot 2024-12-25 at 15.41.14.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/5107052001001/candidate3/digit3/Screenshot 2024-12-25 at 15.41.21.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 4
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 5,
+            "digit3": 5
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 9,
+            "digit3": 6
+        }
+    }
+}

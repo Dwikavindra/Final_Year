@@ -1,0 +1,59 @@
+{
+    "id": "3173061001001",
+    "province": "DKI Jakarta",
+    "regency": "Kota Administrasi Jakarta Pusat",
+    "district": "Tanah Abang",
+    "sub_district": "Bendungan Hilir",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 4
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 5,
+            "digit3": 7
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 6,
+            "digit3": 7
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/3173061001001/candidate1/digit2/Screenshot 2024-12-16 at 22.16.02.png",
+            "digit3": "../code/fyp/data_election/digits/3173061001001/candidate1/digit3/Screenshot 2024-12-16 at 22.16.08.png"
+        },
+        "candidate2": {
+            "digit1": "../code/fyp/data_election/digits/3173061001001/candidate2/digit1/Screenshot 2024-12-16 at 22.16.13.png",
+            "digit2": "../code/fyp/data_election/digits/3173061001001/candidate2/digit2/Screenshot 2024-12-16 at 22.16.23.png",
+            "digit3": "../code/fyp/data_election/digits/3173061001001/candidate2/digit3/Screenshot 2024-12-16 at 22.16.28.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/3173061001001/candidate3/digit2/Screenshot 2024-12-16 at 22.16.35.png",
+            "digit3": "../code/fyp/data_election/digits/3173061001001/candidate3/digit3/Screenshot 2024-12-16 at 22.16.40.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        }
+    }
+}

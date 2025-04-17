@@ -1,0 +1,59 @@
+{
+    "id": "3201132001001",
+    "province": "Jawa Barat",
+    "regency": "Bogor",
+    "district": "Bojong Gede",
+    "sub_district": "Bojong Baru",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 6,
+            "digit3": 1
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 5,
+            "digit3": 6
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 9
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3201132001001/candidate1/digit2/Screenshot 2025-01-03 at 17.53.04.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3201132001001/candidate1/digit3/Screenshot 2025-02-18 at 21.18.20.png"
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3201132001001/candidate2/digit2/Screenshot 2025-02-18 at 22.56.09.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3201132001001/candidate2/digit3/Screenshot 2025-01-03 at 17.53.16.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3201132001001/candidate3/digit3/Screenshot 2025-01-03 at 17.53.22.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 1
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 4
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 4
+        }
+    }
+}

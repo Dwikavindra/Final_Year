@@ -1,0 +1,59 @@
+{
+    "id": "3672011003001",
+    "province": "Banten",
+    "regency": "Kota Cilegon",
+    "district": "Cibeber",
+    "sub_district": "Bulukan",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 9,
+            "digit3": 9
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 1,
+            "digit3": 3
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 8
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3672011003001/candidate1/digit2/Screenshot 2024-12-25 at 15.48.26.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3672011003001/candidate1/digit3/Screenshot 2024-12-25 at 15.48.30.png"
+        },
+        "candidate2": {
+            "digit1": "/Volumes/Dwika/fyp/data_election/digits/3672011003001/candidate2/digit1/Screenshot 2025-02-18 at 23.09.11.png",
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3672011003001/candidate2/digit2/Screenshot 2025-02-18 at 20.05.03.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3672011003001/candidate2/digit3/Screenshot 2025-02-18 at 20.15.35.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3672011003001/candidate3/digit2/Screenshot 2024-12-25 at 15.48.50.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3672011003001/candidate3/digit3/Screenshot 2025-02-18 at 23.07.02.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 9
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 1,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 8
+        }
+    }
+}

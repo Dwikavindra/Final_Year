@@ -1,0 +1,59 @@
+{
+    "id": "5206102006001",
+    "province": "Nusa Tenggara Barat",
+    "regency": "Bima",
+    "district": "Ambalawi",
+    "sub_district": "Kole",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 8,
+            "digit3": 8
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 5,
+            "digit3": 5
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 8
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/5206102006001/candidate1/digit2/Screenshot 2025-01-03 at 21.28.30.png",
+            "digit3": "../code/fyp/data_election/digits/5206102006001/candidate1/digit3/Screenshot 2025-01-03 at 21.28.33.png"
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/5206102006001/candidate2/digit2/Screenshot 2025-01-03 at 21.28.36.png",
+            "digit3": "../code/fyp/data_election/digits/5206102006001/candidate2/digit3/Screenshot 2025-01-03 at 21.28.39.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": "../code/fyp/data_election/digits/5206102006001/candidate3/digit3/Screenshot 2025-01-03 at 21.28.43.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 3
+        }
+    }
+}

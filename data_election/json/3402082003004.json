@@ -1,0 +1,59 @@
+{
+    "id": "3402082003004",
+    "province": "Daerah Istimewa Yogyakarta",
+    "regency": "Bantul",
+    "district": "Bantul",
+    "sub_district": "Bantul",
+    "ballot_number": "04",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 9
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 6,
+            "digit3": 0
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 9,
+            "digit3": 9
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3402082003004/candidate1/digit2/Screenshot 2025-02-18 at 22.11.41.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3402082003004/candidate1/digit3/Screenshot 2025-02-18 at 22.52.42.png"
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3402082003004/candidate2/digit2/Screenshot 2025-02-18 at 22.35.09.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3402082003004/candidate2/digit3/Screenshot 2025-02-18 at 21.15.09.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3402082003004/candidate3/digit2/Screenshot 2025-02-18 at 23.04.21.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3402082003004/candidate3/digit3/Screenshot 2025-02-18 at 23.25.37.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 7
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 5,
+            "digit3": 0
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 9,
+            "digit3": 5
+        }
+    }
+}

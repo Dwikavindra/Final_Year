@@ -1,0 +1,59 @@
+{
+    "id": "6306042005001",
+    "province": "Kalimantan Selatan",
+    "regency": "Hulu Sungai Selatan",
+    "district": "Angkinang",
+    "sub_district": "Angkinang",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 8,
+            "digit3": 0
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 1,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 2
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/6306042005001/candidate1/digit2/Screenshot 2025-02-18 at 22.16.34.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/6306042005001/candidate1/digit3/Screenshot 2025-01-03 at 18.57.07.png"
+        },
+        "candidate2": {
+            "digit1": "/Volumes/Dwika/fyp/data_election/digits/6306042005001/candidate2/digit1/Screenshot 2025-01-03 at 18.57.11.png",
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/6306042005001/candidate2/digit2/Screenshot 2025-01-03 at 18.57.15.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/6306042005001/candidate2/digit3/Screenshot 2025-01-03 at 18.57.22.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/6306042005001/candidate3/digit2/Screenshot 2025-01-03 at 18.57.28.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/6306042005001/candidate3/digit3/Screenshot 2025-01-03 at 18.57.32.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 0
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 1,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 2
+        }
+    }
+}

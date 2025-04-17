@@ -1,0 +1,59 @@
+{
+    "id": "7109072001001",
+    "province": "Sulawesi Utara",
+    "regency": "Kep. Siau Tagulandang Biaro",
+    "district": "Biaro",
+    "sub_district": "Buang",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": null
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 2,
+            "digit3": 1
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 5,
+            "digit3": 0
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": null
+        },
+        "candidate2": {
+            "digit1": "../code/fyp/data_election/digits/7109072001001/candidate2/digit1/Screenshot 2025-01-03 at 23.23.40.png",
+            "digit2": "../code/fyp/data_election/digits/7109072001001/candidate2/digit2/Screenshot 2025-01-03 at 23.23.43.png",
+            "digit3": "../code/fyp/data_election/digits/7109072001001/candidate2/digit3/Screenshot 2025-01-03 at 23.23.45.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/7109072001001/candidate3/digit2/Screenshot 2025-01-03 at 23.23.48.png",
+            "digit3": "../code/fyp/data_election/digits/7109072001001/candidate3/digit3/Screenshot 2025-01-03 at 23.23.50.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": null
+        },
+        "candidate2": {
+            "digit1": 2,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        }
+    }
+}

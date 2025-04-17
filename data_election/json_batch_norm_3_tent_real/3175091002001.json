@@ -1,0 +1,59 @@
+{
+    "id": "3175091002001",
+    "province": "DKI Jakarta",
+    "regency": "Kota Administrasi Jakarta Timur",
+    "district": "Ciracas",
+    "sub_district": "Cibubur",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 5
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 2,
+            "digit3": 1
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 5,
+            "digit3": 7
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/3175091002001/candidate1/digit2/Screenshot 2024-12-16 at 23.12.00.png",
+            "digit3": "../code/fyp/data_election/digits/3175091002001/candidate1/digit3/Screenshot 2024-12-16 at 23.12.05.png"
+        },
+        "candidate2": {
+            "digit1": "../code/fyp/data_election/digits/3175091002001/candidate2/digit1/Screenshot 2024-12-16 at 23.12.09.png",
+            "digit2": "../code/fyp/data_election/digits/3175091002001/candidate2/digit2/Screenshot 2024-12-16 at 23.12.14.png",
+            "digit3": "../code/fyp/data_election/digits/3175091002001/candidate2/digit3/Screenshot 2024-12-16 at 23.12.19.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/3175091002001/candidate3/digit2/Screenshot 2024-12-16 at 23.12.33.png",
+            "digit3": "../code/fyp/data_election/digits/3175091002001/candidate3/digit3/Screenshot 2024-12-16 at 23.12.39.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": 2,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        }
+    }
+}

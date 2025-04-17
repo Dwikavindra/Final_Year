@@ -1,0 +1,59 @@
+{
+    "id": "3171031005001",
+    "province": "DKI Jakarta",
+    "regency": "Kota Administrasi Jakarta Pusat",
+    "district": "Kemayoran",
+    "sub_district": "Gunung Sahari Selatan",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 8
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 8,
+            "digit3": 0
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 9,
+            "digit3": 0
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3171031005001/candidate1/digit2/Screenshot 2025-02-18 at 22.46.57.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3171031005001/candidate1/digit3/Screenshot 2024-12-16 at 22.32.17.png"
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3171031005001/candidate2/digit2/Screenshot 2024-12-16 at 22.32.22.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3171031005001/candidate2/digit3/Screenshot 2024-12-16 at 22.32.27.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3171031005001/candidate3/digit2/Screenshot 2024-12-16 at 22.32.35.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3171031005001/candidate3/digit3/Screenshot 2024-12-16 at 22.32.45.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 4
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 0,
+            "digit3": 0
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 0
+        }
+    }
+}

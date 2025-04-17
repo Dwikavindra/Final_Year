@@ -1,0 +1,59 @@
+{
+    "id": "3174101002001",
+    "province": "DKI Jakarta",
+    "regency": "Kota Administrasi Jakarta Selatan",
+    "district": "Pessanggrahan",
+    "sub_district": "Bintaro",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": 1,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 1,
+            "digit3": 4
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 4
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": "/Volumes/Dwika/fyp/data_election/digits/3174101002001/candidate1/digit1/Screenshot 2025-02-18 at 21.30.36.png",
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3174101002001/candidate1/digit2/Screenshot 2024-12-16 at 22.51.50.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3174101002001/candidate1/digit3/Screenshot 2024-12-16 at 22.51.58.png"
+        },
+        "candidate2": {
+            "digit1": "/Volumes/Dwika/fyp/data_election/digits/3174101002001/candidate2/digit1/Screenshot 2024-12-16 at 22.52.21.png",
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3174101002001/candidate2/digit2/Screenshot 2024-12-16 at 22.52.25.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3174101002001/candidate2/digit3/Screenshot 2024-12-16 at 22.52.34.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3174101002001/candidate3/digit2/Screenshot 2024-12-16 at 22.52.41.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3174101002001/candidate3/digit3/Screenshot 2024-12-16 at 22.52.45.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": 1,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 1,
+            "digit3": 4
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 4
+        }
+    }
+}

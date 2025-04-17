@@ -1,0 +1,59 @@
+{
+    "id": "5302082007004",
+    "province": "Nusa Tenggara Timur",
+    "regency": "Kab Timor Tengah Selatan",
+    "district": "Amanatun Selatan",
+    "sub_district": "Sunu",
+    "ballot_number": "04",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 5
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 5,
+            "digit3": 4
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 1
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": "../code/fyp/data_election/digits/5302082007004/candidate1/digit3/Screenshot 2025-01-03 at 21.53.20.png"
+        },
+        "candidate2": {
+            "digit1": "../code/fyp/data_election/digits/5302082007004/candidate2/digit1/Screenshot 2025-01-03 at 21.53.23.png",
+            "digit2": "../code/fyp/data_election/digits/5302082007004/candidate2/digit2/Screenshot 2025-01-03 at 21.53.25.png",
+            "digit3": "../code/fyp/data_election/digits/5302082007004/candidate2/digit3/Screenshot 2025-01-03 at 21.53.27.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/5302082007004/candidate3/digit2/Screenshot 2025-01-03 at 21.53.30.png",
+            "digit3": "../code/fyp/data_election/digits/5302082007004/candidate3/digit3/Screenshot 2025-01-03 at 21.53.34.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 3
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 1
+        }
+    }
+}

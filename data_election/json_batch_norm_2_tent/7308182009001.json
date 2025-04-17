@@ -1,0 +1,59 @@
+{
+    "id": "7308182009001",
+    "province": "Sulawesi Selatan",
+    "regency": "Bone",
+    "district": "Ajangle",
+    "sub_district": "Allamungeng Patue",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 5,
+            "digit3": 1
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 0,
+            "digit3": 6
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 9
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/7308182009001/candidate1/digit2/Screenshot 2025-01-03 at 22.36.30.png",
+            "digit3": "../code/fyp/data_election/digits/7308182009001/candidate1/digit3/Screenshot 2025-01-03 at 22.36.34.png"
+        },
+        "candidate2": {
+            "digit1": "../code/fyp/data_election/digits/7308182009001/candidate2/digit1/Screenshot 2025-01-03 at 22.36.38.png",
+            "digit2": "../code/fyp/data_election/digits/7308182009001/candidate2/digit2/Screenshot 2025-01-03 at 22.36.41.png",
+            "digit3": "../code/fyp/data_election/digits/7308182009001/candidate2/digit3/Screenshot 2025-01-03 at 22.36.45.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": "../code/fyp/data_election/digits/7308182009001/candidate3/digit3/Screenshot 2025-01-03 at 22.36.49.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 1
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 3
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "id": "6304052012002",
+    "province": "Kalimantan Selatan",
+    "regency": "Banjar",
+    "district": "Aluh Aluh",
+    "sub_district": "Aluh Aluh Besar",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 7
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 8,
+            "digit3": 0
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 1
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/6304052012002/candidate1/digit2/Screenshot 2025-01-03 at 18.54.37.png",
+            "digit3": "../code/fyp/data_election/digits/6304052012002/candidate1/digit3/Screenshot 2025-01-03 at 18.54.41.png"
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/6304052012002/candidate2/digit2/Screenshot 2025-01-03 at 18.54.45.png",
+            "digit3": "../code/fyp/data_election/digits/6304052012002/candidate2/digit3/Screenshot 2025-01-03 at 18.54.49.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/6304052012002/candidate3/digit2/Screenshot 2025-01-03 at 18.54.54.png",
+            "digit3": "../code/fyp/data_election/digits/6304052012002/candidate3/digit3/Screenshot 2025-01-03 at 18.54.59.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 1
+        }
+    }
+}

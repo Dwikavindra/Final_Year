@@ -1,0 +1,59 @@
+{
+    "id": "3671031002001",
+    "province": "Banten",
+    "regency": "Kota Tanggerang",
+    "district": "Batuceper",
+    "sub_district": "Batu Jaya",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 7
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 9,
+            "digit3": 7
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3671031002001/candidate1/digit2/Screenshot 2024-12-25 at 15.56.46.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3671031002001/candidate1/digit3/Screenshot 2024-12-25 at 15.56.51.png"
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3671031002001/candidate2/digit2/Screenshot 2025-02-18 at 23.35.21.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3671031002001/candidate2/digit3/Screenshot 2024-12-25 at 15.57.03.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/3671031002001/candidate3/digit2/Screenshot 2025-02-18 at 23.11.55.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/3671031002001/candidate3/digit3/Screenshot 2024-12-25 at 15.57.14.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 1
+        },
+        "candidate2": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 7
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 7,
+            "digit3": 4
+        }
+    }
+}

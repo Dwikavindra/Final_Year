@@ -1,0 +1,59 @@
+{
+    "id": "7501212010002",
+    "province": "Gorontalo",
+    "regency": "Gorontalo",
+    "district": "Asparaga",
+    "sub_district": "Bihe",
+    "ballot_number": "02",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 3
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 4,
+            "digit3": 0
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 1
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/7501212010002/candidate1/digit2/Screenshot 2025-02-18 at 23.26.41.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/7501212010002/candidate1/digit3/Screenshot 2024-12-25 at 16.55.13.png"
+        },
+        "candidate2": {
+            "digit1": "/Volumes/Dwika/fyp/data_election/digits/7501212010002/candidate2/digit1/Screenshot 2024-12-25 at 16.55.18.png",
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/7501212010002/candidate2/digit2/Screenshot 2024-12-25 at 16.55.24.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/7501212010002/candidate2/digit3/Screenshot 2024-12-25 at 16.55.27.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/7501212010002/candidate3/digit2/Screenshot 2025-02-18 at 22.16.57.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/7501212010002/candidate3/digit3/Screenshot 2024-12-25 at 16.55.38.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 1
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 4,
+            "digit3": 1
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 4,
+            "digit3": 1
+        }
+    }
+}

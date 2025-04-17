@@ -1,0 +1,59 @@
+{
+    "id": "1903032008001",
+    "province": "Kepulauan Bangka Belitung",
+    "regency": "Bangka Selatan",
+    "district": "Airgegas",
+    "sub_district": "Airbara",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 5,
+            "digit3": 7
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 9,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/1903032008001/candidate1/digit2/Screenshot 2025-01-03 at 20.01.29.png",
+            "digit3": "../code/fyp/data_election/digits/1903032008001/candidate1/digit3/Screenshot 2025-01-03 at 20.01.32.png"
+        },
+        "candidate2": {
+            "digit1": "../code/fyp/data_election/digits/1903032008001/candidate2/digit1/Screenshot 2025-01-03 at 20.01.37.png",
+            "digit2": "../code/fyp/data_election/digits/1903032008001/candidate2/digit2/Screenshot 2025-01-03 at 20.01.40.png",
+            "digit3": "../code/fyp/data_election/digits/1903032008001/candidate2/digit3/Screenshot 2025-01-03 at 20.01.43.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/1903032008001/candidate3/digit2/Screenshot 2025-01-03 at 20.01.47.png",
+            "digit3": "../code/fyp/data_election/digits/1903032008001/candidate3/digit3/Screenshot 2025-01-03 at 20.01.50.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": 2,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        }
+    }
+}

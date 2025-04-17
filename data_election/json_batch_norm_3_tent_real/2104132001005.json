@@ -1,0 +1,59 @@
+{
+    "id": "2104132001005",
+    "province": "Kepulauan Riau",
+    "regency": "Lingga",
+    "district": "Bakung Serumpun",
+    "sub_district": "Btu Belubang",
+    "ballot_number": "05",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 8,
+            "digit3": 0
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 1,
+            "digit3": 5
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 4
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/2104132001005/candidate1/digit2/Screenshot 2025-01-03 at 20.25.58.png",
+            "digit3": "../code/fyp/data_election/digits/2104132001005/candidate1/digit3/Screenshot 2025-01-03 at 20.26.02.png"
+        },
+        "candidate2": {
+            "digit1": "../code/fyp/data_election/digits/2104132001005/candidate2/digit1/Screenshot 2025-01-03 at 20.26.06.png",
+            "digit2": "../code/fyp/data_election/digits/2104132001005/candidate2/digit2/Screenshot 2025-01-03 at 20.26.10.png",
+            "digit3": "../code/fyp/data_election/digits/2104132001005/candidate2/digit3/Screenshot 2025-01-03 at 20.26.17.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/2104132001005/candidate3/digit2/Screenshot 2025-01-03 at 20.26.22.png",
+            "digit3": "../code/fyp/data_election/digits/2104132001005/candidate3/digit3/Screenshot 2025-01-03 at 20.26.26.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": 2,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        }
+    }
+}

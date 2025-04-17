@@ -1,0 +1,59 @@
+{
+    "id": "3505052005001",
+    "province": "Jawa Timur",
+    "regency": "Blitar",
+    "district": "Bakung",
+    "sub_district": "Bakung",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 8
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 3,
+            "digit3": 9
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 7
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/3505052005001/candidate1/digit2/Screenshot 2025-01-03 at 18.24.43.png",
+            "digit3": "../code/fyp/data_election/digits/3505052005001/candidate1/digit3/Screenshot 2025-01-03 at 18.24.46.png"
+        },
+        "candidate2": {
+            "digit1": "../code/fyp/data_election/digits/3505052005001/candidate2/digit1/Screenshot 2025-01-03 at 18.24.51.png",
+            "digit2": "../code/fyp/data_election/digits/3505052005001/candidate2/digit2/Screenshot 2025-01-03 at 18.24.55.png",
+            "digit3": "../code/fyp/data_election/digits/3505052005001/candidate2/digit3/Screenshot 2025-01-03 at 18.24.58.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/3505052005001/candidate3/digit2/Screenshot 2025-01-03 at 18.25.02.png",
+            "digit3": "../code/fyp/data_election/digits/3505052005001/candidate3/digit3/Screenshot 2025-01-03 at 18.25.07.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 3
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 3
+        }
+    }
+}

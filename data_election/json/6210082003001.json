@@ -1,0 +1,59 @@
+{
+    "id": "6210082003001",
+    "province": "Kalimantan Tengah",
+    "regency": "Gunung Mas",
+    "district": "Damang Batu",
+    "sub_district": "Karetau Rambangun",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 0,
+            "digit3": 9
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 7
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/6210082003001/candidate1/digit3/Screenshot 2025-01-03 at 19.19.10.png"
+        },
+        "candidate2": {
+            "digit1": "/Volumes/Dwika/fyp/data_election/digits/6210082003001/candidate2/digit1/Screenshot 2025-02-18 at 22.19.01.png",
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/6210082003001/candidate2/digit2/Screenshot 2025-01-03 at 19.19.22.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/6210082003001/candidate2/digit3/Screenshot 2025-01-03 at 19.19.26.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/6210082003001/candidate3/digit3/Screenshot 2025-02-18 at 22.55.47.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 1,
+            "digit3": 4
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 4
+        }
+    }
+}

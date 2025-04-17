@@ -1,0 +1,59 @@
+{
+    "id": "8205062003001",
+    "province": "Maluku Utara",
+    "regency": "Kepulauan Sula",
+    "district": "Mangoli Barat",
+    "sub_district": "Lekosula",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 3
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 4,
+            "digit3": 0
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 7
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/8205062003001/candidate1/digit2/Screenshot 2025-01-03 at 21.21.57.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/8205062003001/candidate1/digit3/Screenshot 2025-01-03 at 21.21.31.png"
+        },
+        "candidate2": {
+            "digit1": "/Volumes/Dwika/fyp/data_election/digits/8205062003001/candidate2/digit1/Screenshot 2025-01-03 at 21.21.34.png",
+            "digit2": "/Volumes/Dwika/fyp/data_election/digits/8205062003001/candidate2/digit2/Screenshot 2025-01-03 at 21.21.38.png",
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/8205062003001/candidate2/digit3/Screenshot 2025-01-03 at 21.21.40.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": "/Volumes/Dwika/fyp/data_election/digits/8205062003001/candidate3/digit3/Screenshot 2025-01-03 at 21.21.43.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 3
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 4,
+            "digit3": 0
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": null,
+            "digit3": 7
+        }
+    }
+}

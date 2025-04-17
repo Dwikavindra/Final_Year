@@ -1,0 +1,59 @@
+{
+  "id": "6504042002002",
+  "province": "Kalimantan Utara",
+  "regency": "Tana Tidung",
+  "district": "Bunyu",
+  "sub_district": "Bebakung",
+  "ballot_number": "01",
+  "realResult": {
+    "candidate1": {
+      "digit1": null,
+      "digit2": 1,
+      "digit3": 1
+    },
+    "candidate2": {
+      "digit1": null,
+      "digit2": 7,
+      "digit3": 2
+    },
+    "candidate3": {
+      "digit1": null,
+      "digit2": 8,
+      "digit3": 8
+    }
+  },
+  "slicedImage": {
+    "candidate1": {
+      "digit1": null,
+      "digit2": "/Volumes/Dwika/fyp/data_election/digits/6504042002002/candidate1/digit2/Screenshot 2025-01-03 at 19.54.26.png",
+      "digit3": "/Volumes/Dwika/fyp/data_election/digits/6504042002002/candidate1/digit3/Screenshot 2025-01-03 at 19.54.29.png"
+    },
+    "candidate2": {
+      "digit1": null,
+      "digit2": "/Volumes/Dwika/fyp/data_election/digits/6504042002002/candidate2/digit2/Screenshot 2025-02-19 at 00.04.06.png",
+      "digit3": "/Volumes/Dwika/fyp/data_election/digits/6504042002002/candidate2/digit3/Screenshot 2025-02-18 at 22.44.43.png"
+    },
+    "candidate3": {
+      "digit1": null,
+      "digit2": "/Volumes/Dwika/fyp/data_election/digits/6504042002002/candidate3/digit2/Screenshot 2025-01-03 at 19.54.40.png",
+      "digit3": "/Volumes/Dwika/fyp/data_election/digits/6504042002002/candidate3/digit3/Screenshot 2025-0103 at 19.54.43.png"
+    }
+  },
+  "predictedResult": {
+    "candidate1": {
+      "digit1": null,
+      "digit2": 1,
+      "digit3": 1
+    },
+    "candidate2": {
+      "digit1": null,
+      "digit2": 1,
+      "digit3": 4
+    },
+    "candidate3": {
+      "digit1": null,
+      "digit2": 4,
+      "digit3": 4
+    }
+  }
+}

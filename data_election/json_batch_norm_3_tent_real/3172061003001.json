@@ -1,0 +1,59 @@
+{
+    "id": "3172061003001",
+    "province": "DKI Jakarta",
+    "regency": "Kota Administrasi Jakarta Utara",
+    "district": "Kelapa Gading",
+    "sub_district": "Kelapa Gading Barat",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 8,
+            "digit3": 4
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 0,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 3
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/3172061003001/candidate1/digit2/Screenshot 2024-12-16 at 23.27.51.png",
+            "digit3": "../code/fyp/data_election/digits/3172061003001/candidate1/digit3/Screenshot 2024-12-16 at 23.27.56.png"
+        },
+        "candidate2": {
+            "digit1": "../code/fyp/data_election/digits/3172061003001/candidate2/digit1/Screenshot 2024-12-16 at 23.28.00.png",
+            "digit2": "../code/fyp/data_election/digits/3172061003001/candidate2/digit2/Screenshot 2024-12-16 at 23.28.07.png",
+            "digit3": "../code/fyp/data_election/digits/3172061003001/candidate2/digit3/Screenshot 2024-12-16 at 23.28.11.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/3172061003001/candidate3/digit2/Screenshot 2024-12-16 at 23.28.17.png",
+            "digit3": "../code/fyp/data_election/digits/3172061003001/candidate3/digit3/Screenshot 2024-12-16 at 23.28.22.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate2": {
+            "digit1": 2,
+            "digit2": 2,
+            "digit3": 2
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 2,
+            "digit3": 2
+        }
+    }
+}

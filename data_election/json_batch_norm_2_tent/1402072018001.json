@@ -1,0 +1,59 @@
+{
+    "id": "1402072018001",
+    "province": "Riau",
+    "regency": "Indragiri Hulu",
+    "district": "Batang Cenaku",
+    "sub_district": "Alim",
+    "ballot_number": "01",
+    "realResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 7,
+            "digit3": 1
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 0,
+            "digit3": 8
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 7
+        }
+    },
+    "slicedImage": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/1402072018001/candidate1/digit2/Screenshot 2025-01-03 at 22.13.03.png",
+            "digit3": "../code/fyp/data_election/digits/1402072018001/candidate1/digit3/Screenshot 2025-01-03 at 22.13.06.png"
+        },
+        "candidate2": {
+            "digit1": "../code/fyp/data_election/digits/1402072018001/candidate2/digit1/Screenshot 2025-01-03 at 22.13.10.png",
+            "digit2": "../code/fyp/data_election/digits/1402072018001/candidate2/digit2/Screenshot 2025-01-03 at 22.13.13.png",
+            "digit3": "../code/fyp/data_election/digits/1402072018001/candidate2/digit3/Screenshot 2025-01-03 at 22.13.16.png"
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": "../code/fyp/data_election/digits/1402072018001/candidate3/digit2/Screenshot 2025-01-03 at 22.13.22.png",
+            "digit3": "../code/fyp/data_election/digits/1402072018001/candidate3/digit3/Screenshot 2025-01-03 at 22.13.24.png"
+        }
+    },
+    "predictedResult": {
+        "candidate1": {
+            "digit1": null,
+            "digit2": 3,
+            "digit3": 1
+        },
+        "candidate2": {
+            "digit1": 1,
+            "digit2": 3,
+            "digit3": 3
+        },
+        "candidate3": {
+            "digit1": null,
+            "digit2": 1,
+            "digit3": 3
+        }
+    }
+}
