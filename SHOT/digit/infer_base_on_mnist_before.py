@@ -117,5 +117,5 @@ if __name__ == "__main__":
     columns = ['Class', 'Accuracy',"iteration"]
     
     for class_label, accuracy in class_accuracies.items():
-        write_row_to_csv(f"../saved_result/before_adaptation/inference_per_class_accuracies/mnist_before_per_class_accuracy.csv", columns, [class_label, accuracy,args.iteration])
+        write_row_to_csv(f"../saved_result/before_adaptation/mnist_before_per_class_accuracy.csv", columns, [class_label, accuracy,args.iteration])
         
