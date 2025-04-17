@@ -2,34 +2,6 @@
 
 This repository contains code, models, and results for domain adaptation experiments using the SHOT (Source Hypothesis Transfer) method
 
-## Repository Structure
-
-```
-└── SHOT/
-    ├── readme.md                # Main README file
-    ├── LICENSE                  # License information
-    ├── pretrained-models.md     # Information about pretrained models
-    ├── results.md               # Results overview
-    ├── digit/                   # Digit classification experiments
-    │   ├── digit.sh             # Shell script for running digit experiments
-    │   ├── infer_base_*.py      # Inference scripts for baselines
-    │   ├── loss.py              # Loss function implementations
-    │   ├── network.py           # Neural network architecture definitions
-    │   ├── run_*.py             # Scripts for running multiple iterations
-    │   ├── uda_digit.py         # Core SHOT implementation for digit classification
-    │   ├── ckps_digits/         # Checkpoints for digit experiments
-    │   │   └── seed2020/
-    │   │       ├── m2u/         # MNIST to USPS adaptation
-    │   │       ├── mnistelection/ # MNIST to Election dataset adaptation
-    │   │       └── s2m/         # SVHN to MNIST adaptation
-    │   ├── data/                # Dataset storage
-    │   └── data_load/           # Data loading utilities
-    ├── object/                  # Object classification experiments
-    └── saved_result/            # Saved experimental results
-        ├── adaptation/          # Results after SHOT adaptation
-        └── before_adaptation/   # Baseline results before adaptation
-```
-
 ## Experimental Results
 
 The results are organized into two main categories: pre-adaptation baselines and post-adaptation results.
@@ -124,15 +96,15 @@ Each experiment is conducted with:
 
 ### Command-Line Arguments
 
-| Script            | Argument      | Description                           | Default Value |
-| ----------------- | ------------- | ------------------------------------- | ------------- |
-| `uda_digit.py`    | `--dset`      | Target dataset (e.g., mnistelection)  | -             |
-|                   | `--cls_par`   | Classification parameter              | 0.1           |
-|                   | `--dset_size` | Dataset size (0.1-0.9)                | 0.9           |
-|                   | `--output`    | Output directory for checkpoints      | ckps_digits   |
-| `infer_base_*.py` | `--iteration` | Iteration number for statistical runs | 1.0           |
+| Script            | Argument      | Description                                                                                  | Default Value |
+| ----------------- | ------------- | -------------------------------------------------------------------------------------------- | ------------- |
+| `uda_digit.py`    | `--dset`      | Target dataset (e.g., mnistelection (choose mnist election for the experiment in the paper)) | -             |
+|                   | `--cls_par`   | Classification parameter                                                                     | 0.1           |
+|                   | `--dset_size` | Dataset size (0.1-0.9)                                                                       | 0.9           |
+|                   | `--output`    | Output directory for checkpoints                                                             | ckps_digits   |
+| `infer_base_*.py` | `--iteration` | Iteration number for statistical runs (1-100)                                                | 1.0           |
 
-**NOTE:** Batch size is kept at 64 for all experiments.
+**NOTE:**
 
 ## Relationship Between Scripts and Results
 
