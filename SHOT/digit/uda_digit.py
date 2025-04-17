@@ -618,6 +618,9 @@ if __name__ == "__main__":
     netC,netB,netF=build_model(args.dset_size)
     acc, _ ,precision, recall, f1, class_accuracies=cal_acc_key_metrics(dataloader,netF,netB,netC)
     columns = ['Accuracy', 'precision',"recall","f1","iteration","dset_size"]
-    write_row_to_csv(f"../saved_result/inference_key_metrics/inference_mnist_after_performance.csv", columns, [acc,precision,recall,f1,args.iteration,args.dset_size])
+    write_row_to_csv(f"../saved_result/adaptation/SHOT_mnist_after_performance.csv", columns, [acc,precision,recall,f1,args.iteration,args.dset_size])
     columns = ['Class', 'Accuracy',"iteration","dset_size"]
+    for class_label, accuracy in class_accuracies.items():
+        write_row_to_csv(f"../saved_result/adaptation/SHOT_mnist_after_per_classs_accuracy.csv", columns, [class_label, accuracy,args.iteration,args.dset_size])
+
   

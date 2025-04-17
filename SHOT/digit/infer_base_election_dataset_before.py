@@ -114,9 +114,9 @@ if __name__ == "__main__":
         num_workers=4, drop_last=False)
     acc, _ ,precision, recall, f1, class_accuracies=cal_acc_key_metrics(dataloader,netF,netB,netC)
     columns = ['Accuracy', 'precision',"recall","f1","iteration"]
-    write_row_to_csv(f"../saved_result/inference_key_metrics/inference_base_election.csv", columns, [acc,precision,recall,f1,args.iteration])
+    write_row_to_csv(f"../saved_result/before_adaptation/inference_key_metrics/inference_base_election.csv", columns, [acc,precision,recall,f1,args.iteration])
     columns = ['Class', 'Accuracy',"iteration"]
     
     for class_label, accuracy in class_accuracies.items():
-        write_row_to_csv(f"../saved_result/inferenece_per_class_accuracies/electiondataset.csv", columns, [class_label, accuracy,args.iteration])
+        write_row_to_csv(f"../saved_result/before_adaptation/election_after_per_class.csv", columns, [class_label, accuracy,args.iteration])
         
