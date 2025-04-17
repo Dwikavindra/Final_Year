@@ -39,9 +39,9 @@ def build_model():
     netC = network.feat_classifier(type="wn", class_num=10, bottleneck_dim=256).to(device)
     modelpath = "../digit/ckps_digits/seed2020/mnistelection" + '/source_F.pt'   
     netF.load_state_dict(torch.load(modelpath, map_location=device))
-    modelpath = "../SHOT/digit/ckps_digits/seed2020/mnistelection" + '/source_B.pt'   
+    modelpath = "../digit/ckps_digits/seed2020/mnistelection" + '/source_B.pt'   
     netB.load_state_dict(torch.load(modelpath, map_location=device))
-    modelpath = "../SHOT/digit/ckps_digits/seed2020/mnistelection" + '/source_C.pt'   
+    modelpath = "../digit/ckps_digits/seed2020/mnistelection" + '/source_C.pt'   
     netC.load_state_dict(torch.load(modelpath, map_location=device))
     netF.eval()
     netB.eval()
