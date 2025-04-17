@@ -24,7 +24,7 @@ def apply_heuristic(probabilities):
 
 def predict_image_ensemble(models, x, y):
     with torch.no_grad():
-        x = x.to(torch.device("mps"))
+        x = x.to(torch.device("cpu"))
         batch_size = x.size(0)
         ensemble_preds = torch.zeros(batch_size, 10).to(x.device)
 
@@ -85,7 +85,7 @@ def get_result(result_batches):
         "f1": f1
     }
 
-def load_ensemble_models(folder_path="/Volumes/Dwika/fyp/ensemble-15-mnist-pytorch", device="mps"):
+def load_ensemble_models(folder_path="/Volumes/Dwika/fyp/ensemble-15-mnist-pytorch", device="cpu"):
     models = []
     for i in range(15):
         model_path = os.path.join(folder_path, f"ensemble_model_{i}.pth")
@@ -95,7 +95,7 @@ def load_ensemble_models(folder_path="/Volumes/Dwika/fyp/ensemble-15-mnist-pytor
     return models
 
     
-def load_ensemble_models_with_name(folder_path="/Volumes/Dwika/fyp/ensemble-15-mnist-pytorch", device="mps"):
+def load_ensemble_models_with_name(folder_path="/Volumes/Dwika/fyp/ensemble-15-mnist-pytorch", device="cpu"):
     models = []
     for i in range(15):
         model_path = os.path.join(folder_path, f"ensemble_model_{i}.pth")
@@ -107,7 +107,7 @@ def load_ensemble_models_with_name(folder_path="/Volumes/Dwika/fyp/ensemble-15-m
 
 
 
-def evaluate_ensemble_models(models, dataloader, device='mps'):
+def evaluate_ensemble_models(models, dataloader, device='cpu'):
     for model in models:
         model.eval()
         model.to(device)
@@ -154,7 +154,7 @@ def apply_heuristic(probabilities):
 
     return first_max
 
-def evaluate_ensemble_models_mnist(models, dataloader, device='mps'):
+def evaluate_ensemble_models_mnist(models, dataloader, device='cpu'):
     for model in models:
         model.eval()
         model.to(device)
@@ -188,7 +188,7 @@ def evaluate_ensemble_models_mnist(models, dataloader, device='mps'):
         'y_pred': all_preds
     }
 
-def evaluate_single_model(model, dataloader, device='mps'):
+def evaluate_single_model(model, dataloader, device='cpu'):
     model.eval()
     model.to(device)
 
@@ -219,7 +219,7 @@ def evaluate_single_model(model, dataloader, device='mps'):
     }
 
 
-def evaluate_single_model_election(model, dataloader, device='mps'):
+def evaluate_single_model_election(model, dataloader, device='cpu'):
     model.eval()
     model.to(device)
 
