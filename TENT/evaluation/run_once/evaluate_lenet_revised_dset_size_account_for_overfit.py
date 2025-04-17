@@ -26,7 +26,6 @@ torch.serialization.add_safe_globals([
     LeNet5BatchNorm5,
     LeNet5BatchNorm6,
     LeNet5BatchNorm7,
-    LeNet5BatchNorm8
 ])
 
 def predict_image(model, x, y):

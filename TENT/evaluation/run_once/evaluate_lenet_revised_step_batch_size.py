@@ -21,7 +21,6 @@ torch.serialization.add_safe_globals([
     LeNet5BatchNorm5,
     LeNet5BatchNorm6,
     LeNet5BatchNorm7,
-    LeNet5BatchNorm8
 ])
 
 def predict_image(model, x, y):
@@ -149,7 +148,6 @@ if __name__ == "__main__":
         'lenet5_batchNorm5': "../model/save_model_batchNorm5.pt",
         'lenet5_batchNorm6': "../model/save_model_batchNorm6.pt",
         'lenet5_batchNorm7': "../model/save_model_batchNorm7.pt",
-        'lenet5_batchNorm8': "../model/save_model_batchNorm8.pt",
     }
     
     dataset = CustomImageDataset('../../batch_inference.csv','', transform=clean_data.image_processing_sirekap_lenet)
