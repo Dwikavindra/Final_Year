@@ -1,8 +1,10 @@
 import torch
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from sklearn.model_selection import train_test_split
-import pandas as pd
+import sys
 import os
+sys.path.append(os.path.abspath(".."))
+import pandas as pd
 import argparse
 from lennet5_models import LeNet5,LeNet5BatchNorm,LeNet5BatchNorm2,LeNet5BatchNorm3,LeNet5BatchNorm4,LeNet5BatchNorm5,LeNet5BatchNorm6,LeNet5BatchNorm7
 from batch_data_loader import CustomImageDataset
@@ -11,9 +13,7 @@ import tent
 from torch.utils.data import DataLoader,Subset
 import torchvision
 import torchvision.transforms as transforms
-import sys
-import os
-sys.path.append(os.path.abspath(".."))
+
 os.environ['OPENBLAS_NUM_THREADS'] = '1'
 
 
@@ -189,8 +189,7 @@ if __name__ == "__main__":
     parser.add_argument("--iteration", type=int, required=True, default=1, help="Iteration number")
     parser.add_argument("--overall_csv_path", type=str, required=False, default='', help="Path to save overall CSV file")
     parser.add_argument("--per_class_csv_path", type=str, required=False, default='', help="Path to save per-class CSV file")
-    parser.add_argument("--tented", action="store_true", help="Evaluate using TENT")
-    parser.add_argument("--dset_size", type=float, required=True, default=0.9, help="Default train_size")
+    parser.add_argument("--dset_size", type=float, required=False, default=0.9, help="Value range 0.1-0.9 will default to 0.9 if not specified")
     args = parser.parse_args()
 
     model_paths = {
@@ -212,7 +211,7 @@ if __name__ == "__main__":
 )
     
     if(len(args.overall_csv_path)==0):
-        args.overall_csv_path='../save'
+        args.overall_csv_path= "../saved_results/_lennet_tent/dset_size_overfit/overall_results/sirekap_method"
     if(len(args.per_class_csv_path)==0):
         args.per_class_csv_path='../saved_results/_lennet_tented_step_batch_size/per_class/per_class_results_tented/sirekap_method'
     adapt_dataset = Subset(dataset, adapt_indices)
