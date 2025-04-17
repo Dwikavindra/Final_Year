@@ -1,15 +1,16 @@
 import torch
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 import pandas as pd
-import clean_data
 import os
+import sys
+sys.path.append(os.path.abspath(".."))
+import clean_data
 import argparse
-from lennet5_models import LeNet5,LeNet5BatchNorm,LeNet5BatchNorm2,LeNet5BatchNorm3,LeNet5BatchNorm4,LeNet5BatchNorm5,LeNet5BatchNorm6,LeNet5BatchNorm7,LeNet5BatchNorm8
+from lennet5_models import LeNet5,LeNet5BatchNorm,LeNet5BatchNorm2,LeNet5BatchNorm3,LeNet5BatchNorm4,LeNet5BatchNorm5,LeNet5BatchNorm6,LeNet5BatchNorm7
 from batch_data_loader import CustomImageDataset
 from clean_data import image_processing_no_effect
 from torch.utils.data import DataLoader
-import sys
-sys.path.append(os.path.abspath(".."))
+import tent
 os.environ['OPENBLAS_NUM_THREADS'] = '1'
 
 # Generate step and batch size results in __lennet_tented/overall_results/sirekap_method seen in Figure 6.3-6.6
@@ -27,7 +28,8 @@ torch.serialization.add_safe_globals([
 
 def predict_image(model, x, y):
     with torch.no_grad():
-        x = x.to(torch.device("cuda"))
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        x = x.to(torch.device(device))
         pred = model(x)
         _, preds = torch.max(pred, dim=1)
 
@@ -101,7 +103,7 @@ def evaluate_models_base_only(model_paths, dataloader, iteration, overall_csv_pa
     print(f"Finished Iteration non tented models {iteration}")
 
 def evaluate_models_tented(model_paths, dataloader, iteration, overall_csv_path, per_class_csv_path, steps=1,batch_size=512):
-    import tent
+
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     for name, model_path in model_paths.items():
@@ -143,19 +145,20 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     model_paths = {
-        'lenet5_batchNorm1': "../model/save_model_batchNorm1.pt",
-        'lenet5_batchNorm2': "../model/save_model_batchNorm2.pt",
-        'lenet5_batchNorm3': "../model/save_model_batchNorm3.pt",
-        'lenet5_batchNorm4': "../model/save_model_batchNorm4.pt",
-        'lenet5_batchNorm5': "../model/save_model_batchNorm5.pt",
-        'lenet5_batchNorm6': "../model/save_model_batchNorm6.pt",
-        'lenet5_batchNorm7': "../model/save_model_batchNorm7.pt",
+        'lenet5_batchNorm1': "../../model/save_model_batchNorm1.pt",
+        'lenet5_batchNorm2': "../../model/save_model_batchNorm2.pt",
+        'lenet5_batchNorm3': "../../model/save_model_batchNorm3.pt",
+        'lenet5_batchNorm4': "../../model/save_model_batchNorm4.pt",
+        'lenet5_batchNorm5': "../../model/save_model_batchNorm5.pt",
+        'lenet5_batchNorm6': "../../model/save_model_batchNorm6.pt",
+        'lenet5_batchNorm7': "../../model/save_model_batchNorm7.pt",
     }
-
+    overall_csv_base_path = "../saved_results/_lennet_tented_step_batch_size/overall_results/sirekap_method"
+    per_class_csv_base_path = "../saved_results/_lennet_tented_step_batch_size/per_class/per_class_results_tented/sirekap_method"
     if(len(args.overall_csv_path)==0):
-        args.overall_csv_path='"../saved_results/_lennet_tented_step_batch_size/overall_results/sirekap_method"'
+        args.overall_csv_path=overall_csv_base_path
     if(len(args.per_class_csv_path)==0):
-        args.per_class_csv_path='../saved_results/_lennet_tented_step_batch_size/per_class/per_class_results_tented/sirekap_method'
+        args.per_class_csv_path=per_class_csv_base_path
     dataset = CustomImageDataset('../../batch_inference.csv','', transform=clean_data.image_processing_sirekap_lenet)
     dataloader = DataLoader(dataset, batch_size=args.batch_size, shuffle=True)
     evaluate_models_tented(model_paths, dataloader, iteration=args.iteration, overall_csv_path=args.overall_csv_path, per_class_csv_path=args.per_class_csv_path,steps=args.step_size,batch_size=args.batch_size)

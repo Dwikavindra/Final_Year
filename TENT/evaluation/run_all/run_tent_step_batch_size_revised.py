@@ -5,8 +5,8 @@ import sys
 import os
 sys.path.append(os.path.abspath(".."))
 script_name = "../evaluate_lenet_revised_step_batch_size.py"
-overall_csv_base_path = "../saved_results/_lennet_tented/overall_results/sirekap_method"
-per_class_csv_base_path = "../saved_results/_lennet_tented/per_class/per_class_results_tented/sirekap_method"
+overall_csv_base_path = "../saved_results/_lennet_tented_step_batch_size/overall_results/sirekap_method"
+per_class_csv_base_path = "../saved_results/_lennet_tented_step_batch_size/per_class/per_class_results_tented/sirekap_method"
 total_iterations = 100
 parallel_limit = 20
 batch_sizes = [16, 32, 64, 128, 256]

@@ -1,0 +1,2 @@
+model_name,iteration,accuracy,precision,recall,f1,steps,batch_size
+lenet5_batchNorm1,1,0.717391304347826,0.732630191048164,0.6883532448013591,0.6676266528167147,1,32

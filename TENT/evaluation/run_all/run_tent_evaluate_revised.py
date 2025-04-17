@@ -8,10 +8,10 @@ total_iterations = 100
 batch_size = 20
 script_name = "../evaluate_lenet_revised.py"
 overall_csv_path = "../saved_results/_lennet_tent/overall_results/sirekap_method"
-per_class_csv_path = "../saved_results/_lennet_tent/per_class/per_class_results_lennet_non_tent/sirekap_method"
+per_class_csv_path = "../saved_results/_lennet_tent/per_class/per_class_results_lennet_tent/sirekap_method"
 tented = True  # Set True if tented
 processes = []
-
+#So this for running election dataset inference for all variations
 for batch_start in range(1, total_iterations + 1, batch_size):
     batch_end = min(batch_start + batch_size, total_iterations + 1)
     processes = []

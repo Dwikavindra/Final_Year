@@ -3,7 +3,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 import pandas as pd
 import os
 import argparse
-from lennet5_models import LeNet5,LeNet5BatchNorm,LeNet5BatchNorm2,LeNet5BatchNorm3,LeNet5BatchNorm4,LeNet5BatchNorm5,LeNet5BatchNorm6,LeNet5BatchNorm7,LeNet5BatchNorm8
+from lennet5_models import LeNet5,LeNet5BatchNorm,LeNet5BatchNorm2,LeNet5BatchNorm3,LeNet5BatchNorm4,LeNet5BatchNorm5,LeNet5BatchNorm6,LeNet5BatchNorm7
 from batch_data_loader import CustomImageDataset
 import clean_data
 from torch.utils.data import DataLoader
@@ -24,7 +24,8 @@ torch.serialization.add_safe_globals([
 
 def predict_image(model, x, y):
     with torch.no_grad():
-        x = x.to(torch.device("cuda"))
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        x = x.to(torch.device(device))
         pred = model(x)
         _, preds = torch.max(pred, dim=1)
 
@@ -133,28 +134,40 @@ def evaluate_models_tented(model_paths, dataloader, iteration, overall_csv_path,
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--iteration", type=int, required=True, help="Iteration number")
-    parser.add_argument("--overall_csv_path", type=str, required=True, help="Path to save overall CSV file")
-    parser.add_argument("--per_class_csv_path", type=str, required=True, help="Path to save per-class CSV file")
+    parser.add_argument("--overall_csv_path", type=str, required=False, default='', help="Path to save overall CSV file")
+    parser.add_argument("--per_class_csv_path", type=str, required=False,default='',help="Path to save per-class CSV file")
     parser.add_argument("--tented", action="store_true", help="Evaluate using TENT")
     args = parser.parse_args()
 
     model_paths = {
-        'lenet5_batchNorm1': "../model/save_model_batchNorm1.pt",
-        'lenet5_batchNorm2': "../model/save_model_batchNorm2.pt",
-        'lenet5_batchNorm3': "../model/save_model_batchNorm3.pt",
-        'lenet5_batchNorm4': "../model/save_model_batchNorm4.pt",
-        'lenet5_batchNorm5': "../model/save_model_batchNorm5.pt",
-        'lenet5_batchNorm6': "../model/save_model_batchNorm6.pt",
-        'lenet5_batchNorm7': "../model/save_model_batchNorm7.pt",
-        'lenet5_batchNorm8': "../model/save_model_batchNorm8.pt",
-        'LeNet5_base': "../model/save_model.pt"
+        'lenet5_batchNorm1': "../../model/save_model_batchNorm1.pt",
+        'lenet5_batchNorm2': "../../model/save_model_batchNorm2.pt",
+        'lenet5_batchNorm3': "../../model/save_model_batchNorm3.pt",
+        'lenet5_batchNorm4': "../../model/save_model_batchNorm4.pt",
+        'lenet5_batchNorm5': "../../model/save_model_batchNorm5.pt",
+        'lenet5_batchNorm6': "../../model/save_model_batchNorm6.pt",
+        'lenet5_batchNorm7': "../../model/save_model_batchNorm7.pt",
+        'LeNet5_base': "../../model/save_model.pt"
     }
     
     dataset = CustomImageDataset('../../batch_inference.csv','', transform=clean_data.image_processing_sirekap_lenet)
     dataloader = DataLoader(dataset, batch_size=512, shuffle=True)
 
+
     if args.tented:
         del model_paths['LeNet5_base']
+        if(len(args.overall_csv_path)==0):
+            overall_csv_path = "../saved_results/_lennet_non_tented/overall_results/sirekap_method" 
+            args.overall_csv_path=overall_csv_path
+        if(len(args.per_class_csv_path)==0):
+            per_class_csv_path = "../saved_results/_lennet_non_tented/per_class/per_class_results_lennet_non_tented/sirekap_method"
+            args.per_class_csv_path=per_class_csv_path
         evaluate_models_tented(model_paths, dataloader, iteration=args.iteration, overall_csv_path=args.overall_csv_path, per_class_csv_path=args.per_class_csv_path)
     else:
+        if(len(args.overall_csv_path)==0):
+            overall_csv_path = "../saved_results/_lennet_non_tented/overall_results/sirekap_method" 
+            args.overall_csv_path=overall_csv_path
+        if(len(args.per_class_csv_path)==0):
+            per_class_csv_path = "../saved_results/_lennet_tent/overall_results/sirekap_method"
+            args.per_class_csv_path=per_class_csv_path
         evaluate_models_base_only(model_paths, dataloader, iteration=args.iteration, overall_csv_path=args.overall_csv_path, per_class_csv_path=args.per_class_csv_path)
