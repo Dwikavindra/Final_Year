@@ -6,10 +6,10 @@ This repository contains all necessary files to replicate the results from the f
 
 | Directory              | Description                                                      |
 | ---------------------- | ---------------------------------------------------------------- |
-| `TENT/`                | Test-Time Entropy Minimization experiments for domain adaptation |
-| `SHOT/`                | Source Hypothesis Transfer experiments for domain adaptation     |
-| `Reverse_Engineering/` | Reverse engineering experiments with ensembled models            |
-| `data_election/`       | SIREKAP C1 form digits dataset with annotations                  |
+| `TENT/`                | Test-Time Entropy Minimization experiments  |
+| `SHOT/`                | Source Hypothesis Transfer experiments    |
+| `Reverse_Engineering/` | Reverse engineering experiments        |
+| `data_election/`       | Inodonesian 2024 Election Dataset SIREKAP C1 form digits dataset                  |
 
 ## Package Requirements
 
