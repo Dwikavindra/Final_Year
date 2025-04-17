@@ -113,5 +113,5 @@ if __name__ == "__main__":
     columns = ['Class', 'Accuracy',"iteration"]
     
     for class_label, accuracy in class_accuracies.items():
-        write_row_to_csv(f"../saved_result/before_adaptation/election_after_per_class.csv", columns, [class_label, accuracy,args.iteration])
+        write_row_to_csv(f"../saved_result/before_adaptation/election_before_per_class.csv", columns, [class_label, accuracy,args.iteration])
         
